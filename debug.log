@@ -1,0 +1,1492 @@
+2019-05-29 15:48:49 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-29 15:48:49 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-29 15:48:49 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-29 15:48:49 Default data directory /home/ubuntu/.sirius
+2019-05-29 15:48:49 Using data directory /home/ubuntu/.sirius
+2019-05-29 15:48:49 Using at most 125 connections (1024 file descriptors available)
+2019-05-29 15:48:49 init message: Cüzdan kontrol ediliyor...
+2019-05-29 15:48:49 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-29 15:48:49 Bound to [::]:2333
+2019-05-29 15:48:49 Bound to 0.0.0.0:2333
+2019-05-29 15:48:49 init message: Blok indeksi yükleniyor...
+2019-05-29 15:48:49 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-29 15:48:49 Opened LevelDB successfully
+2019-05-29 15:48:49 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-29 15:48:49 Opened LevelDB successfully
+2019-05-29 15:48:49 LoadBlockIndexDB(): last block file = 0
+2019-05-29 15:48:49 LoadBlockIndexDB(): transaction index disabled
+2019-05-29 15:48:49 Initializing databases...
+2019-05-29 15:48:49 64fd2fa4d98f81c256729cbba901395de638073b26527e3c6eeaca50498b916c
+2019-05-29 15:48:49 64fd2fa4d98f81c256729cbba901395de638073b26527e3c6eeaca50498b916c
+2019-05-29 15:48:49 c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c
+2019-05-29 15:48:49 CBlock(hash=64fd2fa4d98f81c256729cbba901395de638073b26527e3c6eeaca50498b916c, input=0100000000000000000000000000000000000000000000000000000000000000000000006cd58db2873a5819517f8c76193e940e9bb5128019723d86ff7a81ac751e71c4cedced5cf0ff0f1e43d4667c, PoW=000008c9045e510e66282e349eeb85ff2f75e8e4945f33526af70733316a7976, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c, nTime=1559092430, nBits=1e0ffff0, nNonce=2087113795, vtx=1)
+2019-05-29 15:48:49   CTransaction(hash=c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536)
+    CTxOut(nValue=20.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+  vMerkleTree: c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c 
+2019-05-29 15:48:49 Pre-allocating up to position 0x1000000 in blk00000.dat
+2019-05-29 15:48:49 SetBestChain: new best=64fd2fa4d98f81c256729cbba901395de638073b26527e3c6eeaca50498b916c  height=0  log2_work=20.000022  tx=1  date=2019-05-29 01:13:50 progress=0.622035
+2019-05-29 15:48:49 init message: Bloklar kontrol ediliyor...
+2019-05-29 15:48:49  block index             106ms
+2019-05-29 15:48:49 init message: Cüzdan yükleniyor...
+2019-05-29 15:48:49 nFileVersion = 80705
+2019-05-29 15:48:49 Performing wallet upgrade to 60000
+2019-05-29 15:48:49 keypool added key 1, size=1
+2019-05-29 15:48:49 keypool added key 2, size=2
+2019-05-29 15:48:49 keypool added key 3, size=3
+2019-05-29 15:48:49 keypool added key 4, size=4
+2019-05-29 15:48:49 keypool added key 5, size=5
+2019-05-29 15:48:49 keypool added key 6, size=6
+2019-05-29 15:48:49 keypool added key 7, size=7
+2019-05-29 15:48:49 keypool added key 8, size=8
+2019-05-29 15:48:49 keypool added key 9, size=9
+2019-05-29 15:48:49 keypool added key 10, size=10
+2019-05-29 15:48:49 keypool added key 11, size=11
+2019-05-29 15:48:49 keypool added key 12, size=12
+2019-05-29 15:48:49 keypool added key 13, size=13
+2019-05-29 15:48:49 keypool added key 14, size=14
+2019-05-29 15:48:49 keypool added key 15, size=15
+2019-05-29 15:48:49 keypool added key 16, size=16
+2019-05-29 15:48:49 keypool added key 17, size=17
+2019-05-29 15:48:49 keypool added key 18, size=18
+2019-05-29 15:48:49 keypool added key 19, size=19
+2019-05-29 15:48:49 keypool added key 20, size=20
+2019-05-29 15:48:49 keypool added key 21, size=21
+2019-05-29 15:48:49 keypool added key 22, size=22
+2019-05-29 15:48:49 keypool added key 23, size=23
+2019-05-29 15:48:49 keypool added key 24, size=24
+2019-05-29 15:48:49 keypool added key 25, size=25
+2019-05-29 15:48:49 keypool added key 26, size=26
+2019-05-29 15:48:49 keypool added key 27, size=27
+2019-05-29 15:48:49 keypool added key 28, size=28
+2019-05-29 15:48:49 keypool added key 29, size=29
+2019-05-29 15:48:49 keypool added key 30, size=30
+2019-05-29 15:48:49 keypool added key 31, size=31
+2019-05-29 15:48:49 keypool added key 32, size=32
+2019-05-29 15:48:49 keypool added key 33, size=33
+2019-05-29 15:48:49 keypool added key 34, size=34
+2019-05-29 15:48:49 keypool added key 35, size=35
+2019-05-29 15:48:49 keypool added key 36, size=36
+2019-05-29 15:48:49 keypool added key 37, size=37
+2019-05-29 15:48:49 keypool added key 38, size=38
+2019-05-29 15:48:49 keypool added key 39, size=39
+2019-05-29 15:48:49 keypool added key 40, size=40
+2019-05-29 15:48:49 keypool added key 41, size=41
+2019-05-29 15:48:49 keypool added key 42, size=42
+2019-05-29 15:48:49 keypool added key 43, size=43
+2019-05-29 15:48:49 keypool added key 44, size=44
+2019-05-29 15:48:49 keypool added key 45, size=45
+2019-05-29 15:48:49 keypool added key 46, size=46
+2019-05-29 15:48:49 keypool added key 47, size=47
+2019-05-29 15:48:49 keypool added key 48, size=48
+2019-05-29 15:48:49 keypool added key 49, size=49
+2019-05-29 15:48:49 keypool added key 50, size=50
+2019-05-29 15:48:49 keypool added key 51, size=51
+2019-05-29 15:48:49 keypool added key 52, size=52
+2019-05-29 15:48:49 keypool added key 53, size=53
+2019-05-29 15:48:49 keypool added key 54, size=54
+2019-05-29 15:48:49 keypool added key 55, size=55
+2019-05-29 15:48:49 keypool added key 56, size=56
+2019-05-29 15:48:49 keypool added key 57, size=57
+2019-05-29 15:48:49 keypool added key 58, size=58
+2019-05-29 15:48:49 keypool added key 59, size=59
+2019-05-29 15:48:49 keypool added key 60, size=60
+2019-05-29 15:48:49 keypool added key 61, size=61
+2019-05-29 15:48:49 keypool added key 62, size=62
+2019-05-29 15:48:49 keypool added key 63, size=63
+2019-05-29 15:48:49 keypool added key 64, size=64
+2019-05-29 15:48:49 keypool added key 65, size=65
+2019-05-29 15:48:49 keypool added key 66, size=66
+2019-05-29 15:48:49 keypool added key 67, size=67
+2019-05-29 15:48:49 keypool added key 68, size=68
+2019-05-29 15:48:49 keypool added key 69, size=69
+2019-05-29 15:48:49 keypool added key 70, size=70
+2019-05-29 15:48:49 keypool added key 71, size=71
+2019-05-29 15:48:49 keypool added key 72, size=72
+2019-05-29 15:48:49 keypool added key 73, size=73
+2019-05-29 15:48:49 keypool added key 74, size=74
+2019-05-29 15:48:49 keypool added key 75, size=75
+2019-05-29 15:48:49 keypool added key 76, size=76
+2019-05-29 15:48:49 keypool added key 77, size=77
+2019-05-29 15:48:49 keypool added key 78, size=78
+2019-05-29 15:48:49 keypool added key 79, size=79
+2019-05-29 15:48:49 keypool added key 80, size=80
+2019-05-29 15:48:49 keypool added key 81, size=81
+2019-05-29 15:48:49 keypool added key 82, size=82
+2019-05-29 15:48:49 keypool added key 83, size=83
+2019-05-29 15:48:49 keypool added key 84, size=84
+2019-05-29 15:48:49 keypool added key 85, size=85
+2019-05-29 15:48:49 keypool added key 86, size=86
+2019-05-29 15:48:49 keypool added key 87, size=87
+2019-05-29 15:48:49 keypool added key 88, size=88
+2019-05-29 15:48:49 keypool added key 89, size=89
+2019-05-29 15:48:49 keypool added key 90, size=90
+2019-05-29 15:48:49 keypool added key 91, size=91
+2019-05-29 15:48:49 keypool added key 92, size=92
+2019-05-29 15:48:49 keypool added key 93, size=93
+2019-05-29 15:48:49 keypool added key 94, size=94
+2019-05-29 15:48:49 keypool added key 95, size=95
+2019-05-29 15:48:49 keypool added key 96, size=96
+2019-05-29 15:48:49 keypool added key 97, size=97
+2019-05-29 15:48:49 keypool added key 98, size=98
+2019-05-29 15:48:49 keypool added key 99, size=99
+2019-05-29 15:48:49 keypool added key 100, size=100
+2019-05-29 15:48:49 keypool added key 101, size=101
+2019-05-29 15:48:49 keypool reserve 1
+2019-05-29 15:48:49 keypool keep 1
+2019-05-29 15:48:50  wallet                  721ms
+2019-05-29 15:48:50 init message: Adresler yükleniyor...
+2019-05-29 15:48:50 ERROR: CAddrman::Read() : open failed
+2019-05-29 15:48:50 Invalid or missing peers.dat; recreating
+2019-05-29 15:48:50 Loaded 0 addresses from peers.dat  0ms
+2019-05-29 15:48:50 mapBlockIndex.size() = 1
+2019-05-29 15:48:50 nBestHeight = 0
+2019-05-29 15:48:50 setKeyPool.size() = 100
+2019-05-29 15:48:50 mapWallet.size() = 0
+2019-05-29 15:48:50 mapAddressBook.size() = 1
+2019-05-29 15:48:50 opencon thread start
+2019-05-29 15:48:50 msghand thread start
+2019-05-29 15:48:50 dumpaddr thread start
+2019-05-29 15:48:50 addcon thread start
+2019-05-29 15:48:50 net thread start
+2019-05-29 15:48:50 upnp thread start
+2019-05-29 15:48:50 dnsseed thread start
+2019-05-29 15:48:50 Loading addresses from DNS seeds (could take a while)
+2019-05-29 15:48:50 0 addresses found from DNS seeds
+2019-05-29 15:48:50 dnsseed thread exit
+2019-05-29 15:48:50 init message: Yükleme tamamlandı
+2019-05-29 15:48:50 GetMyExternalIP() received [176.239.70.3] 176.239.70.3:0
+2019-05-29 15:48:50 GetMyExternalIP() returned 176.239.70.3
+2019-05-29 15:48:50 AddLocal(176.239.70.3:2333,4)
+2019-05-29 15:48:52 refreshWallet
+2019-05-29 15:48:54 No valid UPnP IGDs found
+2019-05-29 15:48:54 upnp thread exit
+2019-05-29 15:50:21 SiriusMiner started
+2019-05-29 15:50:36 accepted connection 192.168.8.123:38962
+2019-05-29 15:50:36 send version message: version 70002, blocks=0, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:38962
+2019-05-29 15:50:36 Added time data, samples 2, offset +0 (+0 minutes)
+2019-05-29 15:50:36 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=0, us=0.0.0.0:0, them=176.239.70.3:2333, peer=192.168.8.123:38962
+2019-05-29 15:50:36 keypool added key 102, size=101
+2019-05-29 15:50:36 keypool reserve 2
+2019-05-29 15:50:36 CreateNewBlock(): total size 1000
+2019-05-29 15:50:36 Running SiriusMiner with 1 transactions in block (186 bytes)
+2019-05-29 15:50:36 Added 1 addresses from 192.168.8.123: 0 tried, 1 new
+2019-05-29 15:50:36 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-29 15:50:39 Flushing wallet.dat
+2019-05-29 15:50:39 Flushed wallet.dat 26ms
+2019-05-29 15:50:41 hashmeter      3 khash/s
+2019-05-29 15:53:41 SiriusMiner started
+2019-05-29 15:53:41 SiriusMiner terminated
+2019-05-29 15:53:41 keypool added key 103, size=101
+2019-05-29 15:53:41 keypool reserve 3
+2019-05-29 15:53:41 CreateNewBlock(): total size 1000
+2019-05-29 15:53:41 Running SiriusMiner with 1 transactions in block (186 bytes)
+2019-05-29 15:53:41 keypool return 2
+2019-05-29 15:53:43 Flushing wallet.dat
+2019-05-29 15:53:43 Flushed wallet.dat 8ms
+2019-05-29 15:53:59 SiriusMiner started
+2019-05-29 15:53:59 keypool reserve 2
+2019-05-29 15:53:59 CreateNewBlock(): total size 1000
+2019-05-29 15:53:59 Running SiriusMiner with 1 transactions in block (186 bytes)
+2019-05-29 15:54:00 SiriusMiner terminated
+2019-05-29 15:54:00 keypool return 3
+2019-05-29 15:55:41 received block e15b68d8f131b5ad7a8765ee55a043f22b3ec159329fe22621f27e7af7239460
+2019-05-29 15:55:41 Pre-allocating up to position 0x100000 in rev00000.dat
+2019-05-29 15:55:41 Committing 1 changed transactions to coin database...
+2019-05-29 15:55:41 SetBestChain: new best=e15b68d8f131b5ad7a8765ee55a043f22b3ec159329fe22621f27e7af7239460  height=1  log2_work=21.000022  tx=2  date=2019-05-29 15:55:41 progress=1.000000
+2019-05-29 15:55:41 ProcessBlock: ACCEPTED
+2019-05-29 15:55:41 CreateNewBlock(): total size 1000
+2019-05-29 15:55:41 Running SiriusMiner with 1 transactions in block (186 bytes)
+2019-05-29 15:56:23 SiriusMiner terminated
+2019-05-29 15:56:23 keypool return 2
+2019-05-29 15:56:24 ResendWalletTransactions()
+2019-05-29 16:03:50 Flushed 1 addresses to peers.dat  12ms
+2019-05-29 16:03:57 received block 1d7b2d70674fb8e80b8684de0ea50f1d026de77fd9a18c1da16c87cc8127c80e
+2019-05-29 16:03:57 Committing 1 changed transactions to coin database...
+2019-05-29 16:03:57 SetBestChain: new best=1d7b2d70674fb8e80b8684de0ea50f1d026de77fd9a18c1da16c87cc8127c80e  height=2  log2_work=21.584985  tx=3  date=2019-05-29 16:03:56 progress=0.999996
+2019-05-29 16:03:57 ProcessBlock: ACCEPTED
+2019-05-29 16:08:55 received block 62c8bb66bc7bb015aab90baf81e4590998aa3e9f641a25b6cc0a9633313cce9b
+2019-05-29 16:08:55 Committing 1 changed transactions to coin database...
+2019-05-29 16:08:55 SetBestChain: new best=62c8bb66bc7bb015aab90baf81e4590998aa3e9f641a25b6cc0a9633313cce9b  height=3  log2_work=22.000022  tx=4  date=2019-05-29 16:08:55 progress=1.000000
+2019-05-29 16:08:55 ProcessBlock: ACCEPTED
+2019-05-29 16:10:51 ResendWalletTransactions()
+2019-05-29 16:16:10 received block 1b6cb5e740241d5f32ae35f4c5b2c8b20509f02f34a54b33b735d393dd248e14
+2019-05-29 16:16:10 Committing 1 changed transactions to coin database...
+2019-05-29 16:16:10 SetBestChain: new best=1b6cb5e740241d5f32ae35f4c5b2c8b20509f02f34a54b33b735d393dd248e14  height=4  log2_work=22.32195  tx=5  date=2019-05-29 16:16:10 progress=1.000000
+2019-05-29 16:16:10 ProcessBlock: ACCEPTED
+2019-05-29 16:16:50 received block 84dddff333848a89bf8a43f1156d049c908c8635170f8b0ebff38a80d9991029
+2019-05-29 16:16:50 Committing 1 changed transactions to coin database...
+2019-05-29 16:16:50 SetBestChain: new best=84dddff333848a89bf8a43f1156d049c908c8635170f8b0ebff38a80d9991029  height=5  log2_work=22.584985  tx=6  date=2019-05-29 16:16:50 progress=1.000000
+2019-05-29 16:16:50 ProcessBlock: ACCEPTED
+2019-05-29 16:17:29 received block 31d17035d5f224e21a2ed59ab1a76611293f61e09b634861fdc18e18f6be1d96
+2019-05-29 16:17:29 Committing 1 changed transactions to coin database...
+2019-05-29 16:17:29 SetBestChain: new best=31d17035d5f224e21a2ed59ab1a76611293f61e09b634861fdc18e18f6be1d96  height=6  log2_work=22.807377  tx=7  date=2019-05-29 16:17:29 progress=1.000000
+2019-05-29 16:17:29 ProcessBlock: ACCEPTED
+2019-05-29 16:17:34 received block 8e4bcf16d68000c6d8054560a85b24de9b2b8a4311ff5844bf61573a696f1540
+2019-05-29 16:17:34 Committing 1 changed transactions to coin database...
+2019-05-29 16:17:34 SetBestChain: new best=8e4bcf16d68000c6d8054560a85b24de9b2b8a4311ff5844bf61573a696f1540  height=7  log2_work=23.000022  tx=8  date=2019-05-29 16:17:34 progress=1.000000
+2019-05-29 16:17:34 ProcessBlock: ACCEPTED
+2019-05-29 16:17:59 received block 266af7f136be4738bef0bd0663e62cca8f286fb04f0610721aff1e54b4f5fc1f
+2019-05-29 16:17:59 Committing 1 changed transactions to coin database...
+2019-05-29 16:17:59 SetBestChain: new best=266af7f136be4738bef0bd0663e62cca8f286fb04f0610721aff1e54b4f5fc1f  height=8  log2_work=23.169947  tx=9  date=2019-05-29 16:17:59 progress=1.000000
+2019-05-29 16:17:59 ProcessBlock: ACCEPTED
+2019-05-29 16:18:50 Flushed 1 addresses to peers.dat  6ms
+2019-05-29 16:20:30 received block 9cc4e3a32a7442fc341b9e0c1238cecb600edf014bdffdaec4332f1e948effcc
+2019-05-29 16:20:30 Committing 1 changed transactions to coin database...
+2019-05-29 16:20:30 SetBestChain: new best=9cc4e3a32a7442fc341b9e0c1238cecb600edf014bdffdaec4332f1e948effcc  height=9  log2_work=23.32195  tx=10  date=2019-05-29 16:20:30 progress=1.000000
+2019-05-29 16:20:30 ProcessBlock: ACCEPTED
+2019-05-29 16:22:07 received block ddb1e2875922baec325890455fee66a0c314024aee68266a1b8df0b259c599ea
+2019-05-29 16:22:07 Committing 1 changed transactions to coin database...
+2019-05-29 16:22:07 SetBestChain: new best=ddb1e2875922baec325890455fee66a0c314024aee68266a1b8df0b259c599ea  height=10  log2_work=23.459454  tx=11  date=2019-05-29 16:22:07 progress=1.000000
+2019-05-29 16:22:07 ProcessBlock: ACCEPTED
+2019-05-29 16:26:20 received block e90667b1d78461c16ac9636b6e8bd579517a6ab5128673086181490802d45507
+2019-05-29 16:26:20 Committing 1 changed transactions to coin database...
+2019-05-29 16:26:20 SetBestChain: new best=e90667b1d78461c16ac9636b6e8bd579517a6ab5128673086181490802d45507  height=11  log2_work=23.584985  tx=12  date=2019-05-29 16:26:20 progress=1.000000
+2019-05-29 16:26:20 ProcessBlock: ACCEPTED
+2019-05-29 16:26:42 received block 63815f61240c1157073884009438691a1c36f9081d194a7b796cffef9f9af576
+2019-05-29 16:26:42 Committing 1 changed transactions to coin database...
+2019-05-29 16:26:42 SetBestChain: new best=63815f61240c1157073884009438691a1c36f9081d194a7b796cffef9f9af576  height=12  log2_work=23.700462  tx=13  date=2019-05-29 16:26:42 progress=1.000000
+2019-05-29 16:26:42 ProcessBlock: ACCEPTED
+2019-05-29 16:27:33 received block 1d73a167a0e869ce5d2a9639111242fe316e6f5f2dcf86c321def7248ef4ccd9
+2019-05-29 16:27:33 Committing 1 changed transactions to coin database...
+2019-05-29 16:27:33 SetBestChain: new best=1d73a167a0e869ce5d2a9639111242fe316e6f5f2dcf86c321def7248ef4ccd9  height=13  log2_work=23.807377  tx=14  date=2019-05-29 16:27:33 progress=1.000000
+2019-05-29 16:27:33 ProcessBlock: ACCEPTED
+2019-05-29 16:31:12 received block db501f4c9389d4f4d6ad360b92d512f382bd1d590d9bcc6eff3fe5b7d7c9c2e4
+2019-05-29 16:31:12 Committing 1 changed transactions to coin database...
+2019-05-29 16:31:12 SetBestChain: new best=db501f4c9389d4f4d6ad360b92d512f382bd1d590d9bcc6eff3fe5b7d7c9c2e4  height=14  log2_work=23.906913  tx=15  date=2019-05-29 16:31:11 progress=0.999999
+2019-05-29 16:31:12 ProcessBlock: ACCEPTED
+2019-05-29 16:31:43 received block 23f506c700d10f6e2889fac6b11eb526700f6baf696539db81f5e4880b3b6c5b
+2019-05-29 16:31:43 Committing 1 changed transactions to coin database...
+2019-05-29 16:31:43 SetBestChain: new best=23f506c700d10f6e2889fac6b11eb526700f6baf696539db81f5e4880b3b6c5b  height=15  log2_work=24.000022  tx=16  date=2019-05-29 16:31:43 progress=1.000000
+2019-05-29 16:31:43 ProcessBlock: ACCEPTED
+2019-05-29 16:32:53 ResendWalletTransactions()
+2019-05-29 16:33:50 Flushed 1 addresses to peers.dat  51ms
+2019-05-29 16:34:57 received block 9085266947d8c281b4dbc3ec224ead5aa1d82fdc78a3ba26af4b0bf4c6949cf3
+2019-05-29 16:34:57 Committing 1 changed transactions to coin database...
+2019-05-29 16:34:57 SetBestChain: new best=9085266947d8c281b4dbc3ec224ead5aa1d82fdc78a3ba26af4b0bf4c6949cf3  height=16  log2_work=24.087485  tx=17  date=2019-05-29 16:34:56 progress=0.999999
+2019-05-29 16:34:57 ProcessBlock: ACCEPTED
+2019-05-29 16:35:22 received block 7799780988eea1d5190630e191a1221c130a21d68bf37897c6b9fb8101d81b7f
+2019-05-29 16:35:22 Committing 1 changed transactions to coin database...
+2019-05-29 16:35:22 SetBestChain: new best=7799780988eea1d5190630e191a1221c130a21d68bf37897c6b9fb8101d81b7f  height=17  log2_work=24.169947  tx=18  date=2019-05-29 16:35:21 progress=0.999999
+2019-05-29 16:35:22 ProcessBlock: ACCEPTED
+2019-05-29 16:36:46 received block a6ae3a74089279ad58a98b2e53543320e8e4c48dbf255e91653cbd166ce94257
+2019-05-29 16:36:46 Committing 1 changed transactions to coin database...
+2019-05-29 16:36:46 SetBestChain: new best=a6ae3a74089279ad58a98b2e53543320e8e4c48dbf255e91653cbd166ce94257  height=18  log2_work=24.24795  tx=19  date=2019-05-29 16:36:46 progress=1.000000
+2019-05-29 16:36:46 ProcessBlock: ACCEPTED
+2019-05-29 16:48:50 Flushed 1 addresses to peers.dat  7ms
+2019-05-29 16:51:48 ResendWalletTransactions()
+2019-05-29 16:53:17 socket closed
+2019-05-29 16:53:17 disconnecting node 192.168.8.123:38962
+2019-05-29 17:03:50 Flushed 1 addresses to peers.dat  6ms
+2019-05-29 17:18:50 Flushed 1 addresses to peers.dat  8ms
+2019-05-29 17:33:50 Flushed 1 addresses to peers.dat  5ms
+2019-05-29 17:48:50 Flushed 1 addresses to peers.dat  298ms
+2019-05-29 18:02:10 accepted connection 192.168.8.123:39578
+2019-05-29 18:02:10 send version message: version 70002, blocks=18, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:39578
+2019-05-29 18:02:10 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=18, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.8.123:39578
+2019-05-29 18:02:10 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-29 18:03:50 Flushed 1 addresses to peers.dat  6ms
+2019-05-29 18:18:50 Flushed 1 addresses to peers.dat  328ms
+2019-05-29 18:33:50 Flushed 1 addresses to peers.dat  4ms
+2019-05-29 18:48:50 Flushed 1 addresses to peers.dat  52ms
+2019-05-29 19:03:50 Flushed 1 addresses to peers.dat  7ms
+2019-05-29 19:18:35 socket closed
+2019-05-29 19:18:35 disconnecting node 192.168.8.123:39578
+2019-05-29 19:18:40 accepted connection 192.168.8.123:40634
+2019-05-29 19:18:40 send version message: version 70002, blocks=18, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:40634
+2019-05-29 19:18:40 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=18, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.8.123:40634
+2019-05-29 19:18:40 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-29 19:18:48 socket closed
+2019-05-29 19:18:48 disconnecting node 192.168.8.123:40634
+2019-05-29 19:18:50 Flushed 1 addresses to peers.dat  6ms
+2019-05-29 19:33:50 Flushed 1 addresses to peers.dat  5ms
+2019-05-29 19:48:51 Flushed 1 addresses to peers.dat  286ms
+2019-05-29 20:03:51 Flushed 1 addresses to peers.dat  6ms
+2019-05-29 20:08:15 accepted connection 192.168.8.123:40998
+2019-05-29 20:08:15 send version message: version 70002, blocks=18, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:40998
+2019-05-29 20:08:15 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=18, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.8.123:40998
+2019-05-29 20:08:16 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-29 20:18:51 Flushed 1 addresses to peers.dat  9ms
+2019-05-29 20:33:51 Flushed 1 addresses to peers.dat  57ms
+2019-05-29 20:48:51 Flushed 1 addresses to peers.dat  32ms
+2019-05-29 21:03:51 Flushed 1 addresses to peers.dat  285ms
+2019-05-29 21:18:51 Flushed 1 addresses to peers.dat  8ms
+2019-05-29 21:33:51 Flushed 1 addresses to peers.dat  58ms
+2019-05-29 21:48:51 Flushed 1 addresses to peers.dat  46ms
+2019-05-29 22:03:51 Flushed 1 addresses to peers.dat  73ms
+2019-05-29 22:18:51 Flushed 1 addresses to peers.dat  48ms
+2019-05-29 22:20:04 socket closed
+2019-05-29 22:20:04 disconnecting node 192.168.8.123:40998
+2019-05-29 22:33:51 Flushed 1 addresses to peers.dat  60ms
+2019-05-29 22:48:51 Flushed 1 addresses to peers.dat  52ms
+2019-05-29 23:03:51 Flushed 1 addresses to peers.dat  46ms
+2019-05-29 23:09:18 accepted connection 192.168.8.123:41458
+2019-05-29 23:09:18 send version message: version 70002, blocks=18, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:41458
+2019-05-29 23:09:18 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=18, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.8.123:41458
+2019-05-29 23:09:19 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-29 23:11:03 SiriusMiner started
+2019-05-29 23:11:03 keypool reserve 2
+2019-05-29 23:11:03 CreateNewBlock(): total size 1000
+2019-05-29 23:11:03 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-29 23:11:03 hashmeter      0 khash/s
+2019-05-29 23:11:56 SiriusMiner terminated
+2019-05-29 23:11:56 keypool return 2
+2019-05-29 23:18:52 Flushed 1 addresses to peers.dat  159ms
+2019-05-29 23:33:52 Flushed 1 addresses to peers.dat  240ms
+2019-05-29 23:39:43 SiriusMiner started
+2019-05-29 23:39:43 keypool reserve 2
+2019-05-29 23:39:43 CreateNewBlock(): total size 1000
+2019-05-29 23:39:43 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-29 23:41:07 hashmeter      4 khash/s
+2019-05-29 23:42:05 received block 2115216c35dfcecb6d2a6a9a549b2a7e05575ad3e37d4179542435130ec8325a
+2019-05-29 23:42:05 Committing 1 changed transactions to coin database...
+2019-05-29 23:42:05 SetBestChain: new best=2115216c35dfcecb6d2a6a9a549b2a7e05575ad3e37d4179542435130ec8325a  height=19  log2_work=24.32195  tx=20  date=2019-05-29 23:42:04 progress=0.999999
+2019-05-29 23:42:05 ProcessBlock: ACCEPTED
+2019-05-29 23:42:05 CreateNewBlock(): total size 1000
+2019-05-29 23:42:05 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-29 23:42:16 received block eaaab36227d4f3d6553a67ab8f07772635342d0875b47ac10fa38e8d11d09137
+2019-05-29 23:42:16 Committing 1 changed transactions to coin database...
+2019-05-29 23:42:16 SetBestChain: new best=eaaab36227d4f3d6553a67ab8f07772635342d0875b47ac10fa38e8d11d09137  height=20  log2_work=24.392339  tx=21  date=2019-05-29 23:42:16 progress=1.000000
+2019-05-29 23:42:16 ProcessBlock: ACCEPTED
+2019-05-29 23:42:17 CreateNewBlock(): total size 1000
+2019-05-29 23:42:17 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-29 23:43:31 SiriusMiner terminated
+2019-05-29 23:43:31 keypool return 2
+2019-05-29 23:48:52 Flushed 1 addresses to peers.dat  51ms
+2019-05-29 23:59:36 ResendWalletTransactions()
+2019-05-30 00:03:52 Flushed 1 addresses to peers.dat  54ms
+2019-05-30 00:18:52 Flushed 1 addresses to peers.dat  42ms
+2019-05-30 00:33:52 Flushed 1 addresses to peers.dat  54ms
+2019-05-30 00:48:52 Flushed 1 addresses to peers.dat  45ms
+2019-05-30 01:03:52 Flushed 1 addresses to peers.dat  4ms
+2019-05-30 01:18:52 Flushed 1 addresses to peers.dat  13ms
+2019-05-30 01:33:52 Flushed 1 addresses to peers.dat  46ms
+2019-05-30 01:48:52 Flushed 1 addresses to peers.dat  49ms
+2019-05-30 02:03:52 Flushed 1 addresses to peers.dat  57ms
+2019-05-30 02:18:52 Flushed 1 addresses to peers.dat  11ms
+2019-05-30 02:33:52 Flushed 1 addresses to peers.dat  56ms
+2019-05-30 02:37:46 socket closed
+2019-05-30 02:37:46 disconnecting node 192.168.8.123:41458
+2019-05-30 02:39:46 accepted connection 192.168.8.123:41996
+2019-05-30 02:39:46 send version message: version 70002, blocks=20, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:41996
+2019-05-30 02:39:46 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=20, us=0.0.0.0:0, them=176.239.70.3:2333, peer=192.168.8.123:41996
+2019-05-30 02:39:46 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-30 05:41:27 Flushed 1 addresses to peers.dat  15ms
+2019-05-30 05:41:27 socket inactivity timeout
+2019-05-30 05:41:27 disconnecting node 192.168.8.123:41996
+2019-05-30 05:42:07 accepted connection 192.168.8.123:41998
+2019-05-30 05:42:08 send version message: version 70002, blocks=20, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:41998
+2019-05-30 05:42:08 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=20, us=0.0.0.0:0, them=176.239.70.3:2333, peer=192.168.8.123:41998
+2019-05-30 05:42:08 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-30 05:56:27 Flushed 1 addresses to peers.dat  110ms
+2019-05-30 06:11:27 Flushed 1 addresses to peers.dat  54ms
+2019-05-30 07:08:11 Flushed 1 addresses to peers.dat  613ms
+2019-05-30 07:12:09 socket inactivity timeout
+2019-05-30 07:12:09 disconnecting node 192.168.8.123:41998
+2019-05-30 07:23:12 Flushed 1 addresses to peers.dat  318ms
+2019-05-30 07:38:12 Flushed 1 addresses to peers.dat  55ms
+2019-05-30 07:53:12 Flushed 1 addresses to peers.dat  604ms
+2019-05-30 08:08:12 Flushed 1 addresses to peers.dat  42ms
+2019-05-30 08:23:12 Flushed 1 addresses to peers.dat  39ms
+2019-05-30 08:38:13 Flushed 1 addresses to peers.dat  284ms
+2019-05-30 08:42:40 accepted connection 192.168.8.116:60704
+2019-05-30 08:42:40 send version message: version 70002, blocks=20, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.116:60704
+2019-05-30 08:42:40 Added time data, samples 3, offset +0 (+0 minutes)
+2019-05-30 08:42:40 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=0, us=0.0.0.0:0, them=176.239.70.3:2333, peer=192.168.8.116:60704
+2019-05-30 08:42:40 getblocks 1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-30 08:42:40 received getdata (20 invsz)
+2019-05-30 08:45:04 accepted connection 192.168.8.123:59952
+2019-05-30 08:45:04 send version message: version 70002, blocks=20, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:59952
+2019-05-30 08:45:04 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=20, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.8.123:59952
+2019-05-30 08:45:05 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-30 08:45:31 SiriusMiner started
+2019-05-30 08:45:31 keypool reserve 2
+2019-05-30 08:45:31 CreateNewBlock(): total size 1000
+2019-05-30 08:45:31 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:45:31 hashmeter      0 khash/s
+2019-05-30 08:47:31 SiriusMiner:
+2019-05-30 08:47:31 proof-of-work found  
+  hash: 00000a53b650ae29d39eac63cf43117dbd04358805cb7748de076859287b8c59  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2019-05-30 08:47:31 CBlock(hash=4348b093ac2a6b6182536ff5e7776e32749931d60e336a0f853f4063f3d2df2b, input=020000003791d0118d8ea30fc17ab475082d34352677078fab673a55d6f3d42762b3aaead10a9c34abad32fdc359b8115dfdf28769e44c0339b2defde4f5ed60dbf4d3afa398ef5cf0ff0f1e32210600, PoW=00000a53b650ae29d39eac63cf43117dbd04358805cb7748de076859287b8c59, ver=2, hashPrevBlock=eaaab36227d4f3d6553a67ab8f07772635342d0875b47ac10fa38e8d11d09137, hashMerkleRoot=afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1, nTime=1559206051, nBits=1e0ffff0, nNonce=401714, vtx=1)
+2019-05-30 08:47:31   CTransaction(hash=afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 01150101062f503253482f)
+    CTxOut(nValue=20.00000000, scriptPubKey=035c9f21547246d7b6b86dd1fc35bf)
+  vMerkleTree: afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1 
+2019-05-30 08:47:31 generated 20.00
+2019-05-30 08:47:31 keypool keep 2
+2019-05-30 08:47:31 AddToWallet afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1  new
+2019-05-30 08:47:31 NotifyTransactionChanged afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1 status=0
+2019-05-30 08:47:31 updateWallet afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1 0
+2019-05-30 08:47:31    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2019-05-30 08:47:31 Committing 1 changed transactions to coin database...
+2019-05-30 08:47:31 SetBestChain: new best=4348b093ac2a6b6182536ff5e7776e32749931d60e336a0f853f4063f3d2df2b  height=21  log2_work=24.459454  tx=22  date=2019-05-30 08:47:31 progress=1.000000
+2019-05-30 08:47:31 ProcessBlock: ACCEPTED
+2019-05-30 08:47:31 keypool reserve 3
+2019-05-30 08:47:31 CreateNewBlock(): total size 1000
+2019-05-30 08:47:31 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:47:31 received getdata for: block 4348b093ac2a6b6182536ff5e7776e32749931d60e336a0f853f4063f3d2df2b
+2019-05-30 08:47:31 received getdata for: block 4348b093ac2a6b6182536ff5e7776e32749931d60e336a0f853f4063f3d2df2b
+2019-05-30 08:47:33 Flushing wallet.dat
+2019-05-30 08:47:33 Flushed wallet.dat 54ms
+2019-05-30 08:49:07 received block 1cecd3b56d4c8628e6edc0ffa8702b057a0e838e37af6aa49970facb7932a46e
+2019-05-30 08:49:07 Committing 1 changed transactions to coin database...
+2019-05-30 08:49:07 SetBestChain: new best=1cecd3b56d4c8628e6edc0ffa8702b057a0e838e37af6aa49970facb7932a46e  height=22  log2_work=24.523584  tx=23  date=2019-05-30 08:49:07 progress=1.000000
+2019-05-30 08:49:07 NotifyTransactionChanged afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1 status=1
+2019-05-30 08:49:07 ProcessBlock: ACCEPTED
+2019-05-30 08:49:07 updateWallet afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1 1
+2019-05-30 08:49:07    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2019-05-30 08:49:07 CreateNewBlock(): total size 1000
+2019-05-30 08:49:07 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:49:08 received getdata for: block 1cecd3b56d4c8628e6edc0ffa8702b057a0e838e37af6aa49970facb7932a46e
+2019-05-30 08:50:17 SiriusMiner:
+2019-05-30 08:50:17 proof-of-work found  
+  hash: 000008290b2051763a7d6614ed9af45909364608e58a3a8ca6e70424ec5ad31c  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2019-05-30 08:50:17 CBlock(hash=38438d2f467bad032fcae3c14c3013c974b8544725dcba17b9579573473fc66a, input=020000006ea43279cbfa7099a46aaf378e830e7a052b70a8ffc0ede628864c6db5d3ec1c61afc3bc6af04adc879356af6eea71a78b52d197225a0abf63ef6d28ecd69f184999ef5cf0ff0f1eb8ec0200, PoW=000008290b2051763a7d6614ed9af45909364608e58a3a8ca6e70424ec5ad31c, ver=2, hashPrevBlock=1cecd3b56d4c8628e6edc0ffa8702b057a0e838e37af6aa49970facb7932a46e, hashMerkleRoot=189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61, nTime=1559206217, nBits=1e0ffff0, nNonce=191672, vtx=1)
+2019-05-30 08:50:17   CTransaction(hash=189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 01170101062f503253482f)
+    CTxOut(nValue=20.00000000, scriptPubKey=03471373aa5a0d2a7c98314ecbe6a0)
+  vMerkleTree: 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61 
+2019-05-30 08:50:17 generated 20.00
+2019-05-30 08:50:17 keypool keep 3
+2019-05-30 08:50:17 AddToWallet 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61  new
+2019-05-30 08:50:17 NotifyTransactionChanged 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61 status=0
+2019-05-30 08:50:17 updateWallet 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61 0
+2019-05-30 08:50:17    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2019-05-30 08:50:17 Committing 1 changed transactions to coin database...
+2019-05-30 08:50:17 SetBestChain: new best=38438d2f467bad032fcae3c14c3013c974b8544725dcba17b9579573473fc66a  height=23  log2_work=24.584985  tx=24  date=2019-05-30 08:50:17 progress=1.000000
+2019-05-30 08:50:17 ProcessBlock: ACCEPTED
+2019-05-30 08:50:17 keypool added key 104, size=101
+2019-05-30 08:50:17 keypool reserve 4
+2019-05-30 08:50:17 CreateNewBlock(): total size 1000
+2019-05-30 08:50:17 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:50:17 received getdata for: block 38438d2f467bad032fcae3c14c3013c974b8544725dcba17b9579573473fc66a
+2019-05-30 08:50:17 received getdata for: block 38438d2f467bad032fcae3c14c3013c974b8544725dcba17b9579573473fc66a
+2019-05-30 08:50:19 Flushing wallet.dat
+2019-05-30 08:50:19 Flushed wallet.dat 99ms
+2019-05-30 08:51:11 received block 4c529c7a023c2d016e409ddfffa8c1a158554e5518a3ec62b72cc7aa130852e7
+2019-05-30 08:51:11 Committing 1 changed transactions to coin database...
+2019-05-30 08:51:11 SetBestChain: new best=4c529c7a023c2d016e409ddfffa8c1a158554e5518a3ec62b72cc7aa130852e7  height=24  log2_work=24.643878  tx=25  date=2019-05-30 08:51:11 progress=1.000000
+2019-05-30 08:51:11 NotifyTransactionChanged 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61 status=1
+2019-05-30 08:51:11 ProcessBlock: ACCEPTED
+2019-05-30 08:51:11 updateWallet 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61 1
+2019-05-30 08:51:11    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2019-05-30 08:51:11 CreateNewBlock(): total size 1000
+2019-05-30 08:51:11 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:51:11 received getdata for: block 4c529c7a023c2d016e409ddfffa8c1a158554e5518a3ec62b72cc7aa130852e7
+2019-05-30 08:52:55 received block ae78ceb4eb35411e29cdabad774a27681fd28ce7f8ad4e01b16716ad11d9b26a
+2019-05-30 08:52:55 Committing 1 changed transactions to coin database...
+2019-05-30 08:52:55 SetBestChain: new best=ae78ceb4eb35411e29cdabad774a27681fd28ce7f8ad4e01b16716ad11d9b26a  height=25  log2_work=24.700462  tx=26  date=2019-05-30 08:52:55 progress=1.000000
+2019-05-30 08:52:55 ProcessBlock: ACCEPTED
+2019-05-30 08:52:56 received getdata for: block ae78ceb4eb35411e29cdabad774a27681fd28ce7f8ad4e01b16716ad11d9b26a
+2019-05-30 08:52:57 CreateNewBlock(): total size 1000
+2019-05-30 08:52:57 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:53:13 Flushed 1 addresses to peers.dat  4ms
+2019-05-30 08:54:10 received block a7a7391e312b377e968e8e806b3078117d61da12a4c79daebea8e6d12ee3e437
+2019-05-30 08:54:10 Committing 1 changed transactions to coin database...
+2019-05-30 08:54:10 SetBestChain: new best=a7a7391e312b377e968e8e806b3078117d61da12a4c79daebea8e6d12ee3e437  height=26  log2_work=24.75491  tx=27  date=2019-05-30 08:54:10 progress=1.000000
+2019-05-30 08:54:10 ProcessBlock: ACCEPTED
+2019-05-30 08:54:10 received getdata for: block a7a7391e312b377e968e8e806b3078117d61da12a4c79daebea8e6d12ee3e437
+2019-05-30 08:54:10 CreateNewBlock(): total size 1000
+2019-05-30 08:54:10 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:54:12 received block eec6ce9b6b9da6612c4c8f85c18f119a4c6cdba07cea7465014e0e6577f886f0
+2019-05-30 08:54:12 Committing 1 changed transactions to coin database...
+2019-05-30 08:54:12 SetBestChain: new best=eec6ce9b6b9da6612c4c8f85c18f119a4c6cdba07cea7465014e0e6577f886f0  height=27  log2_work=24.807377  tx=28  date=2019-05-30 08:54:12 progress=1.000000
+2019-05-30 08:54:12 ProcessBlock: ACCEPTED
+2019-05-30 08:54:12 CreateNewBlock(): total size 1000
+2019-05-30 08:54:12 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:54:13 received getdata for: block eec6ce9b6b9da6612c4c8f85c18f119a4c6cdba07cea7465014e0e6577f886f0
+2019-05-30 08:54:39 ResendWalletTransactions()
+2019-05-30 08:56:13 SiriusMiner:
+2019-05-30 08:56:13 proof-of-work found  
+  hash: 00000d0945128125bcd4395cda71146719a0817046a28bd34ed674f9e97a181a  
+target: 00000ffff0000000000000000000000000000000000000000000000000000000
+2019-05-30 08:56:13 CBlock(hash=eb8612b10329364a777e162cfd624ffbb78e84713c80ff754b2da88a37d793a2, input=02000000f086f877650e4e016574ea7ca0db6c4c9a118fc1858f4c2c61a69d6b9bcec6ee6958f85882be1d8d09bb2d8861304a89a2eb78e98e27ef00f6718b3090685416ad9aef5cf0ff0f1efcf80100, PoW=00000d0945128125bcd4395cda71146719a0817046a28bd34ed674f9e97a181a, ver=2, hashPrevBlock=eec6ce9b6b9da6612c4c8f85c18f119a4c6cdba07cea7465014e0e6577f886f0, hashMerkleRoot=16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869, nTime=1559206573, nBits=1e0ffff0, nNonce=129276, vtx=1)
+2019-05-30 08:56:13   CTransaction(hash=16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 011c0101062f503253482f)
+    CTxOut(nValue=20.00000000, scriptPubKey=021e98f0de65aa3b69be8775ba3370)
+  vMerkleTree: 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869 
+2019-05-30 08:56:13 generated 20.00
+2019-05-30 08:56:13 keypool keep 4
+2019-05-30 08:56:13 AddToWallet 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869  new
+2019-05-30 08:56:13 NotifyTransactionChanged 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869 status=0
+2019-05-30 08:56:13 updateWallet 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869 0
+2019-05-30 08:56:13    inWallet=1 inModel=0 Index=0-0 showTransaction=0 derivedStatus=0
+2019-05-30 08:56:13 Committing 1 changed transactions to coin database...
+2019-05-30 08:56:13 SetBestChain: new best=eb8612b10329364a777e162cfd624ffbb78e84713c80ff754b2da88a37d793a2  height=28  log2_work=24.858003  tx=29  date=2019-05-30 08:56:13 progress=1.000000
+2019-05-30 08:56:13 ProcessBlock: ACCEPTED
+2019-05-30 08:56:13 keypool added key 105, size=101
+2019-05-30 08:56:13 keypool reserve 5
+2019-05-30 08:56:13 CreateNewBlock(): total size 1000
+2019-05-30 08:56:13 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:56:14 received getdata for: block eb8612b10329364a777e162cfd624ffbb78e84713c80ff754b2da88a37d793a2
+2019-05-30 08:56:14 received getdata for: block eb8612b10329364a777e162cfd624ffbb78e84713c80ff754b2da88a37d793a2
+2019-05-30 08:56:16 Flushing wallet.dat
+2019-05-30 08:56:16 Flushed wallet.dat 8ms
+2019-05-30 08:56:49 received block a5e6fa534c0caa3406e3ad2193616fb1f6bf0b4a837d68eee418dcbb56e8746d
+2019-05-30 08:56:49 Committing 1 changed transactions to coin database...
+2019-05-30 08:56:49 SetBestChain: new best=a5e6fa534c0caa3406e3ad2193616fb1f6bf0b4a837d68eee418dcbb56e8746d  height=29  log2_work=24.906913  tx=30  date=2019-05-30 08:56:49 progress=1.000000
+2019-05-30 08:56:49 NotifyTransactionChanged 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869 status=1
+2019-05-30 08:56:49 ProcessBlock: ACCEPTED
+2019-05-30 08:56:49 updateWallet 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869 1
+2019-05-30 08:56:49    inWallet=1 inModel=0 Index=0-0 showTransaction=1 derivedStatus=0
+2019-05-30 08:56:50 received getdata for: block a5e6fa534c0caa3406e3ad2193616fb1f6bf0b4a837d68eee418dcbb56e8746d
+2019-05-30 08:56:50 CreateNewBlock(): total size 1000
+2019-05-30 08:56:50 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:57:57 received block cf7c24f1a30c1f7566e06ef38f719c326e3f316767339f11e11b349fcd04bf8b
+2019-05-30 08:57:57 Committing 1 changed transactions to coin database...
+2019-05-30 08:57:57 SetBestChain: new best=cf7c24f1a30c1f7566e06ef38f719c326e3f316767339f11e11b349fcd04bf8b  height=30  log2_work=24.954218  tx=31  date=2019-05-30 08:57:56 progress=1.000000
+2019-05-30 08:57:57 ProcessBlock: ACCEPTED
+2019-05-30 08:57:57 received getdata for: block cf7c24f1a30c1f7566e06ef38f719c326e3f316767339f11e11b349fcd04bf8b
+2019-05-30 08:57:57 CreateNewBlock(): total size 1000
+2019-05-30 08:57:57 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:58:21 received block f645ac4cc358758452818781e9cd9a6cc6ccc0b6ab280d1c6b5fc5c38fd10820
+2019-05-30 08:58:21 Committing 1 changed transactions to coin database...
+2019-05-30 08:58:21 SetBestChain: new best=f645ac4cc358758452818781e9cd9a6cc6ccc0b6ab280d1c6b5fc5c38fd10820  height=31  log2_work=25.000022  tx=32  date=2019-05-30 08:58:21 progress=1.000000
+2019-05-30 08:58:21 ProcessBlock: ACCEPTED
+2019-05-30 08:58:21 received getdata for: block f645ac4cc358758452818781e9cd9a6cc6ccc0b6ab280d1c6b5fc5c38fd10820
+2019-05-30 08:58:22 received block 1b7df94f845d23ea9a038d8a642531ac4e6d2954c54aa2ed65a851e55df1e3ea
+2019-05-30 08:58:22 Committing 1 changed transactions to coin database...
+2019-05-30 08:58:22 SetBestChain: new best=1b7df94f845d23ea9a038d8a642531ac4e6d2954c54aa2ed65a851e55df1e3ea  height=32  log2_work=25.044416  tx=33  date=2019-05-30 08:58:22 progress=1.000000
+2019-05-30 08:58:22 ProcessBlock: ACCEPTED
+2019-05-30 08:58:22 received getdata for: block 1b7df94f845d23ea9a038d8a642531ac4e6d2954c54aa2ed65a851e55df1e3ea
+2019-05-30 08:58:22 CreateNewBlock(): total size 1000
+2019-05-30 08:58:22 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:58:29 received block 97dce0a332240db97a05d4678832f7010693e9c6dc7b4bf80468d12d60ca8e5b
+2019-05-30 08:58:29 Committing 1 changed transactions to coin database...
+2019-05-30 08:58:29 SetBestChain: new best=97dce0a332240db97a05d4678832f7010693e9c6dc7b4bf80468d12d60ca8e5b  height=33  log2_work=25.087485  tx=34  date=2019-05-30 08:58:29 progress=1.000000
+2019-05-30 08:58:29 ProcessBlock: ACCEPTED
+2019-05-30 08:58:29 received getdata for: block 97dce0a332240db97a05d4678832f7010693e9c6dc7b4bf80468d12d60ca8e5b
+2019-05-30 08:58:30 CreateNewBlock(): total size 1000
+2019-05-30 08:58:30 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:58:39 received block 7c3d387937743b21c74ca757d349ff728e0d4456adbcf138f3dee567694c2381
+2019-05-30 08:58:39 Committing 1 changed transactions to coin database...
+2019-05-30 08:58:39 SetBestChain: new best=7c3d387937743b21c74ca757d349ff728e0d4456adbcf138f3dee567694c2381  height=34  log2_work=25.129305  tx=35  date=2019-05-30 08:58:39 progress=1.000000
+2019-05-30 08:58:39 ProcessBlock: ACCEPTED
+2019-05-30 08:58:39 received getdata for: block 7c3d387937743b21c74ca757d349ff728e0d4456adbcf138f3dee567694c2381
+2019-05-30 08:58:40 CreateNewBlock(): total size 1000
+2019-05-30 08:58:40 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 08:58:47 received block b2063b240643eb18922b57e96444bdca17f88a2eee3b4d6fbe3881fe748cb2b3
+2019-05-30 08:58:47 Committing 1 changed transactions to coin database...
+2019-05-30 08:58:47 SetBestChain: new best=b2063b240643eb18922b57e96444bdca17f88a2eee3b4d6fbe3881fe748cb2b3  height=35  log2_work=25.169947  tx=36  date=2019-05-30 08:58:47 progress=1.000000
+2019-05-30 08:58:47 ProcessBlock: ACCEPTED
+2019-05-30 08:58:47 received getdata for: block b2063b240643eb18922b57e96444bdca17f88a2eee3b4d6fbe3881fe748cb2b3
+2019-05-30 08:58:48 CreateNewBlock(): total size 1000
+2019-05-30 08:58:48 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:01:38 received block 6fd34f98e02c49dc604ffa342bb5047164ad8859014deba2ebfc06dd9a6d717f
+2019-05-30 09:01:38 Committing 1 changed transactions to coin database...
+2019-05-30 09:01:38 SetBestChain: new best=6fd34f98e02c49dc604ffa342bb5047164ad8859014deba2ebfc06dd9a6d717f  height=36  log2_work=25.209475  tx=37  date=2019-05-30 09:01:37 progress=1.000000
+2019-05-30 09:01:38 ProcessBlock: ACCEPTED
+2019-05-30 09:01:39 CreateNewBlock(): total size 1000
+2019-05-30 09:01:39 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:01:40 received getdata for: block 6fd34f98e02c49dc604ffa342bb5047164ad8859014deba2ebfc06dd9a6d717f
+2019-05-30 09:02:35 received block a010973e6809ed595d74be8054ac791f97efdae3addf8e98ec66df2f4b08d95e
+2019-05-30 09:02:35 Committing 1 changed transactions to coin database...
+2019-05-30 09:02:35 SetBestChain: new best=a010973e6809ed595d74be8054ac791f97efdae3addf8e98ec66df2f4b08d95e  height=37  log2_work=25.24795  tx=38  date=2019-05-30 09:02:35 progress=1.000000
+2019-05-30 09:02:35 ProcessBlock: ACCEPTED
+2019-05-30 09:02:36 received getdata for: block a010973e6809ed595d74be8054ac791f97efdae3addf8e98ec66df2f4b08d95e
+2019-05-30 09:02:36 CreateNewBlock(): total size 1000
+2019-05-30 09:02:36 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:06:02 AcceptToMemoryPool: 192.168.8.123:59952 /Satoshi:0.8.7.5/ : accepted 36532cb554970147ec9d2a85701f6417babb35c6a23831a4f5655d10488f6de8 (poolsz 1)
+2019-05-30 09:06:02 CreateNewBlock(): total size 1191
+2019-05-30 09:06:02 Running SiriusMiner with 2 transactions in block (378 bytes)
+2019-05-30 09:06:03 received getdata for: tx 36532cb554970147ec9d2a85701f6417babb35c6a23831a4f5655d10488f6de8
+2019-05-30 09:08:13 Flushed 1 addresses to peers.dat  49ms
+2019-05-30 09:14:17 ResendWalletTransactions()
+2019-05-30 09:14:39 AcceptToMemoryPool: 192.168.8.123:59952 /Satoshi:0.8.7.5/ : accepted fee4897a4bcb9c1596ebd305fb7037673fff3fc6e13f138c10e17dd75a0d9bf1 (poolsz 2)
+2019-05-30 09:14:39 CreateNewBlock(): total size 1382
+2019-05-30 09:14:39 Running SiriusMiner with 3 transactions in block (569 bytes)
+2019-05-30 09:14:39 received getdata for: tx fee4897a4bcb9c1596ebd305fb7037673fff3fc6e13f138c10e17dd75a0d9bf1
+2019-05-30 09:15:26 SiriusMiner started
+2019-05-30 09:15:26 keypool added key 106, size=101
+2019-05-30 09:15:26 keypool reserve 6
+2019-05-30 09:15:26 CreateNewBlock(): total size 1382
+2019-05-30 09:15:26 Running SiriusMiner with 3 transactions in block (569 bytes)
+2019-05-30 09:15:26 SiriusMiner terminated
+2019-05-30 09:15:26 keypool return 5
+2019-05-30 09:15:28 Flushing wallet.dat
+2019-05-30 09:15:28 Flushed wallet.dat 7ms
+2019-05-30 09:15:35 hashmeter      3 khash/s
+2019-05-30 09:15:55 received block fb2dbbd5942c741625fdf2a0e7798151a1dd20dbe6b09694687e973fe4139b97
+2019-05-30 09:15:55 Committing 5 changed transactions to coin database...
+2019-05-30 09:15:55 SetBestChain: new best=fb2dbbd5942c741625fdf2a0e7798151a1dd20dbe6b09694687e973fe4139b97  height=38  log2_work=25.285424  tx=41  date=2019-05-30 09:15:55 progress=1.000000
+2019-05-30 09:15:55 ProcessBlock: ACCEPTED
+2019-05-30 09:15:55 CreateNewBlock(): total size 1000
+2019-05-30 09:15:55 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:15:55 received getdata for: block fb2dbbd5942c741625fdf2a0e7798151a1dd20dbe6b09694687e973fe4139b97
+2019-05-30 09:16:32 AcceptToMemoryPool: 192.168.8.123:59952 /Satoshi:0.8.7.5/ : accepted cf9daf3cf14ffde98d48071c3cc3b1e99061762e4b2f9a5c69acb71266cdf3f1 (poolsz 1)
+2019-05-30 09:16:32 received block abfd279ee6b350b049e1de49137db6049ab1415ff629f386bd45f059baeb69ff
+2019-05-30 09:16:32 Committing 2 changed transactions to coin database...
+2019-05-30 09:16:32 SetBestChain: new best=abfd279ee6b350b049e1de49137db6049ab1415ff629f386bd45f059baeb69ff  height=39  log2_work=25.32195  tx=42  date=2019-05-30 09:16:31 progress=1.000000
+2019-05-30 09:16:32 ProcessBlock: ACCEPTED
+2019-05-30 09:16:32 CreateNewBlock(): total size 1227
+2019-05-30 09:16:32 Running SiriusMiner with 2 transactions in block (414 bytes)
+2019-05-30 09:16:32 received getdata (2 invsz)
+2019-05-30 09:16:33 received block 52523126826663695b7e15acad7322545ce2ad4c940b2d181869f1acedbe0d0f
+2019-05-30 09:16:33 Committing 3 changed transactions to coin database...
+2019-05-30 09:16:33 SetBestChain: new best=52523126826663695b7e15acad7322545ce2ad4c940b2d181869f1acedbe0d0f  height=40  log2_work=25.357574  tx=44  date=2019-05-30 09:16:33 progress=1.000000
+2019-05-30 09:16:33 ProcessBlock: ACCEPTED
+2019-05-30 09:16:33 CreateNewBlock(): total size 1000
+2019-05-30 09:16:33 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:16:33 received getdata for: block 52523126826663695b7e15acad7322545ce2ad4c940b2d181869f1acedbe0d0f
+2019-05-30 09:16:37 received block 1107fc264ba95e1791699dcdd9f19dd77edb5a6614c362d8b015f16003c816d9
+2019-05-30 09:16:37 Committing 1 changed transactions to coin database...
+2019-05-30 09:16:37 SetBestChain: new best=1107fc264ba95e1791699dcdd9f19dd77edb5a6614c362d8b015f16003c816d9  height=41  log2_work=25.392339  tx=45  date=2019-05-30 09:16:37 progress=1.000000
+2019-05-30 09:16:37 ProcessBlock: ACCEPTED
+2019-05-30 09:16:37 CreateNewBlock(): total size 1000
+2019-05-30 09:16:37 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:16:37 received getdata for: block 1107fc264ba95e1791699dcdd9f19dd77edb5a6614c362d8b015f16003c816d9
+2019-05-30 09:16:51 AcceptToMemoryPool: 192.168.8.123:59952 /Satoshi:0.8.7.5/ : accepted 5a748b92a7811db6b8d00f1ff67a91c853d5f9f852217b194839b0c6342c4047 (poolsz 1)
+2019-05-30 09:16:52 received getdata for: tx 5a748b92a7811db6b8d00f1ff67a91c853d5f9f852217b194839b0c6342c4047
+2019-05-30 09:17:25 AcceptToMemoryPool: 192.168.8.123:59952 /Satoshi:0.8.7.5/ : accepted 7f29f3f1f88b96e32c3f810dd207f9b69c204eadfdc2801c2d8c5e9cf1cf3e7f (poolsz 2)
+2019-05-30 09:17:25 received getdata for: tx 7f29f3f1f88b96e32c3f810dd207f9b69c204eadfdc2801c2d8c5e9cf1cf3e7f
+2019-05-30 09:17:38 CreateNewBlock(): total size 1678
+2019-05-30 09:17:38 Running SiriusMiner with 3 transactions in block (865 bytes)
+2019-05-30 09:17:52 ResendWalletTransactions()
+2019-05-30 09:19:02 received block 4b394471b6aafa4e88bf19906c0d7de714a85375e22a0e9605851d9147826deb
+2019-05-30 09:19:02 Committing 7 changed transactions to coin database...
+2019-05-30 09:19:02 SetBestChain: new best=4b394471b6aafa4e88bf19906c0d7de714a85375e22a0e9605851d9147826deb  height=42  log2_work=25.426287  tx=48  date=2019-05-30 09:19:02 progress=1.000000
+2019-05-30 09:19:02 ProcessBlock: ACCEPTED
+2019-05-30 09:19:02 CreateNewBlock(): total size 1000
+2019-05-30 09:19:02 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:19:02 received getdata for: block 4b394471b6aafa4e88bf19906c0d7de714a85375e22a0e9605851d9147826deb
+2019-05-30 09:20:23 received block d6d70f06f4d2fcdaaf179d7056481bcc0806f3659f4dce8b0c1e99ad5671469c
+2019-05-30 09:20:23 Committing 1 changed transactions to coin database...
+2019-05-30 09:20:23 SetBestChain: new best=d6d70f06f4d2fcdaaf179d7056481bcc0806f3659f4dce8b0c1e99ad5671469c  height=43  log2_work=25.459454  tx=49  date=2019-05-30 09:20:22 progress=1.000000
+2019-05-30 09:20:23 ProcessBlock: ACCEPTED
+2019-05-30 09:20:23 CreateNewBlock(): total size 1000
+2019-05-30 09:20:23 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:20:23 received getdata for: block d6d70f06f4d2fcdaaf179d7056481bcc0806f3659f4dce8b0c1e99ad5671469c
+2019-05-30 09:22:32 received block 51f8c9714f6594ed311069621f408ae980c58858f6f935e6282be43455428bd6
+2019-05-30 09:22:32 Committing 1 changed transactions to coin database...
+2019-05-30 09:22:32 SetBestChain: new best=51f8c9714f6594ed311069621f408ae980c58858f6f935e6282be43455428bd6  height=44  log2_work=25.491875  tx=50  date=2019-05-30 09:22:32 progress=1.000000
+2019-05-30 09:22:32 ProcessBlock: ACCEPTED
+2019-05-30 09:22:32 CreateNewBlock(): total size 1000
+2019-05-30 09:22:32 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:22:32 received getdata for: block 51f8c9714f6594ed311069621f408ae980c58858f6f935e6282be43455428bd6
+2019-05-30 09:23:13 Flushed 1 addresses to peers.dat  5ms
+2019-05-30 09:23:36 received block e9152a4a566f8f8cf56a978f66ac3c040bbab9d342a325ac64366eca9a34ad73
+2019-05-30 09:23:36 Committing 1 changed transactions to coin database...
+2019-05-30 09:23:36 SetBestChain: new best=e9152a4a566f8f8cf56a978f66ac3c040bbab9d342a325ac64366eca9a34ad73  height=45  log2_work=25.523584  tx=51  date=2019-05-30 09:23:35 progress=1.000000
+2019-05-30 09:23:36 ProcessBlock: ACCEPTED
+2019-05-30 09:23:36 CreateNewBlock(): total size 1000
+2019-05-30 09:23:36 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:23:36 received getdata for: block e9152a4a566f8f8cf56a978f66ac3c040bbab9d342a325ac64366eca9a34ad73
+2019-05-30 09:24:26 socket closed
+2019-05-30 09:24:26 disconnecting node 192.168.8.116:60704
+2019-05-30 09:26:11 received block fbb4c7f7bda105afe755cc8c0ac4769a0754311623083052fd020780a9922ae3
+2019-05-30 09:26:11 Committing 1 changed transactions to coin database...
+2019-05-30 09:26:11 SetBestChain: new best=fbb4c7f7bda105afe755cc8c0ac4769a0754311623083052fd020780a9922ae3  height=46  log2_work=25.554611  tx=52  date=2019-05-30 09:26:11 progress=1.000000
+2019-05-30 09:26:11 ProcessBlock: ACCEPTED
+2019-05-30 09:26:11 CreateNewBlock(): total size 1000
+2019-05-30 09:26:11 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:26:59 received block e286d296efd8c268b4430fde33ebada54c82aac2241591ae7d73ee79f8279347
+2019-05-30 09:26:59 Committing 1 changed transactions to coin database...
+2019-05-30 09:26:59 SetBestChain: new best=e286d296efd8c268b4430fde33ebada54c82aac2241591ae7d73ee79f8279347  height=47  log2_work=25.584985  tx=53  date=2019-05-30 09:26:59 progress=1.000000
+2019-05-30 09:26:59 ProcessBlock: ACCEPTED
+2019-05-30 09:26:59 CreateNewBlock(): total size 1000
+2019-05-30 09:26:59 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 09:27:22 SiriusMiner terminated
+2019-05-30 09:27:22 keypool return 6
+2019-05-30 09:28:09 received block ed8c57ed9e22923fad51f741bc07c4b441beb57993dec183caa97d2e8d5cfe3c
+2019-05-30 09:28:09 Committing 1 changed transactions to coin database...
+2019-05-30 09:28:09 SetBestChain: new best=ed8c57ed9e22923fad51f741bc07c4b441beb57993dec183caa97d2e8d5cfe3c  height=48  log2_work=25.614732  tx=54  date=2019-05-30 09:28:08 progress=1.000000
+2019-05-30 09:28:09 ProcessBlock: ACCEPTED
+2019-05-30 09:32:32 received block 7c38029c828c8d624781979d6b6c05373ea6aec964e286554956984977572a81
+2019-05-30 09:32:32 Committing 1 changed transactions to coin database...
+2019-05-30 09:32:32 SetBestChain: new best=7c38029c828c8d624781979d6b6c05373ea6aec964e286554956984977572a81  height=49  log2_work=25.643878  tx=55  date=2019-05-30 09:32:32 progress=1.000000
+2019-05-30 09:32:32 ProcessBlock: ACCEPTED
+2019-05-30 09:32:37 received block db78345f7de12f664cd677dfd16bade98ee7888cee72261e6455bf2bce9474b7
+2019-05-30 09:32:37 Committing 1 changed transactions to coin database...
+2019-05-30 09:32:37 SetBestChain: new best=db78345f7de12f664cd677dfd16bade98ee7888cee72261e6455bf2bce9474b7  height=50  log2_work=25.672447  tx=56  date=2019-05-30 09:32:37 progress=1.000000
+2019-05-30 09:32:37 ProcessBlock: ACCEPTED
+2019-05-30 09:37:31 received block 015cf7fb3fde7505e3b8d6c581fbc6fb315b5866b564e6341d69e8a0da6e1b38
+2019-05-30 09:37:31 Committing 1 changed transactions to coin database...
+2019-05-30 09:37:31 SetBestChain: new best=015cf7fb3fde7505e3b8d6c581fbc6fb315b5866b564e6341d69e8a0da6e1b38  height=51  log2_work=25.700462  tx=57  date=2019-05-30 09:37:31 progress=1.000000
+2019-05-30 09:37:31 ProcessBlock: ACCEPTED
+2019-05-30 09:38:13 Flushed 1 addresses to peers.dat  11ms
+2019-05-30 09:40:01 received block 900af17dee02482aa17c17c82f7f91e69190fa86318233b99bf22f7dfeadc181
+2019-05-30 09:40:01 Committing 1 changed transactions to coin database...
+2019-05-30 09:40:01 SetBestChain: new best=900af17dee02482aa17c17c82f7f91e69190fa86318233b99bf22f7dfeadc181  height=52  log2_work=25.727942  tx=58  date=2019-05-30 09:40:01 progress=1.000000
+2019-05-30 09:40:01 ProcessBlock: ACCEPTED
+2019-05-30 09:40:58 received block dacd65c0b2b66ec05862b3cd4d106214b9834af5448f262165ad419eb64aa5b7
+2019-05-30 09:40:58 Committing 1 changed transactions to coin database...
+2019-05-30 09:40:58 SetBestChain: new best=dacd65c0b2b66ec05862b3cd4d106214b9834af5448f262165ad419eb64aa5b7  height=53  log2_work=25.75491  tx=59  date=2019-05-30 09:40:58 progress=1.000000
+2019-05-30 09:40:58 ProcessBlock: ACCEPTED
+2019-05-30 09:42:34 received block a86cf708dcfed199f9829da6bea318d9e1aa66fd64874814aa6ac715b7938cc8
+2019-05-30 09:42:34 Committing 1 changed transactions to coin database...
+2019-05-30 09:42:34 SetBestChain: new best=a86cf708dcfed199f9829da6bea318d9e1aa66fd64874814aa6ac715b7938cc8  height=54  log2_work=25.781382  tx=60  date=2019-05-30 09:42:33 progress=1.000000
+2019-05-30 09:42:34 ProcessBlock: ACCEPTED
+2019-05-30 09:46:38 ResendWalletTransactions()
+2019-05-30 09:46:56 received block 7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c
+2019-05-30 09:46:56 Committing 1 changed transactions to coin database...
+2019-05-30 09:46:56 SetBestChain: new best=7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c  height=55  log2_work=25.807377  tx=61  date=2019-05-30 09:46:56 progress=1.000000
+2019-05-30 09:46:56 ProcessBlock: ACCEPTED
+                                                                                                    2019-05-30 15:01:15 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-30 15:01:15 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-30 15:01:15 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-30 15:01:15 Default data directory /home/ubuntu/.sirius
+2019-05-30 15:01:15 Using data directory /home/ubuntu/.sirius
+2019-05-30 15:01:15 Using at most 125 connections (1024 file descriptors available)
+2019-05-30 15:01:15 init message: Verifying wallet...
+2019-05-30 15:01:15 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-30 15:01:15 Bound to [::]:2333
+2019-05-30 15:01:15 Bound to 0.0.0.0:2333
+2019-05-30 15:01:15 init message: Loading block index...
+2019-05-30 15:01:15 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:01:15 Opened LevelDB successfully
+2019-05-30 15:01:15 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:01:15 Opened LevelDB successfully
+2019-05-30 15:01:15 LoadBlockIndexDB(): last block file = 0
+2019-05-30 15:01:15 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=57, size=12479, heights=0...56, time=2019-05-29...2019-05-30)
+2019-05-30 15:01:15 LoadBlockIndexDB(): transaction index disabled
+2019-05-30 15:01:15 LoadBlockIndexDB(): hashBestChain=7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c  height=55 date=2019-05-30 09:46:56
+2019-05-30 15:01:15 Error: Incorrect or no genesis block found. Wrong datadir for network?
+2019-05-30 15:01:15 Shutdown : In progress...
+2019-05-30 15:01:15 StopNode()
+2019-05-30 15:01:15 Flushed 0 addresses to peers.dat  4ms
+2019-05-30 15:01:15 Committing 0 changed transactions to coin database...
+2019-05-30 15:01:15 Shutdown : done
+2019-05-30 15:01:51 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-30 15:01:51 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-30 15:01:51 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-30 15:01:51 Default data directory /home/ubuntu/.sirius
+2019-05-30 15:01:51 Using data directory /home/ubuntu/.sirius
+2019-05-30 15:01:51 Using at most 125 connections (1024 file descriptors available)
+2019-05-30 15:01:51 init message: Verifying wallet...
+2019-05-30 15:01:51 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-30 15:01:51 Bound to [::]:2333
+2019-05-30 15:01:51 Bound to 0.0.0.0:2333
+2019-05-30 15:01:51 init message: Loading block index...
+2019-05-30 15:01:51 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:01:51 Opened LevelDB successfully
+2019-05-30 15:01:51 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:01:51 Opened LevelDB successfully
+2019-05-30 15:01:51 LoadBlockIndexDB(): last block file = 0
+2019-05-30 15:01:51 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=57, size=12479, heights=0...56, time=2019-05-29...2019-05-30)
+2019-05-30 15:01:51 LoadBlockIndexDB(): transaction index disabled
+2019-05-30 15:01:51 LoadBlockIndexDB(): hashBestChain=7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c  height=55 date=2019-05-30 09:46:56
+2019-05-30 15:01:51 Error: Incorrect or no genesis block found. Wrong datadir for network?
+2019-05-30 15:01:51 Shutdown : In progress...
+2019-05-30 15:01:51 StopNode()
+2019-05-30 15:01:51 Flushed 0 addresses to peers.dat  39ms
+2019-05-30 15:01:51 Committing 0 changed transactions to coin database...
+2019-05-30 15:01:51 Shutdown : done
+2019-05-30 15:03:38 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-30 15:03:38 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-30 15:03:38 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-30 15:03:38 Default data directory /home/ubuntu/.sirius
+2019-05-30 15:03:38 Using data directory /home/ubuntu/.sirius
+2019-05-30 15:03:38 Using at most 125 connections (1024 file descriptors available)
+2019-05-30 15:03:38 init message: Cüzdan kontrol ediliyor...
+2019-05-30 15:03:38 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-30 15:03:38 Bound to [::]:2333
+2019-05-30 15:03:38 Bound to 0.0.0.0:2333
+2019-05-30 15:03:38 init message: Blok indeksi yükleniyor...
+2019-05-30 15:03:38 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:03:38 Opened LevelDB successfully
+2019-05-30 15:03:38 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:03:38 Opened LevelDB successfully
+2019-05-30 15:03:38 LoadBlockIndexDB(): last block file = 0
+2019-05-30 15:03:38 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=57, size=12479, heights=0...56, time=2019-05-29...2019-05-30)
+2019-05-30 15:03:38 LoadBlockIndexDB(): transaction index disabled
+2019-05-30 15:03:38 LoadBlockIndexDB(): hashBestChain=7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c  height=55 date=2019-05-30 09:46:56
+2019-05-30 15:04:03 init message: Blok indeksi yükleniyor...
+2019-05-30 15:04:03 Wiping LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:04:03 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:04:03 Opened LevelDB successfully
+2019-05-30 15:04:03 Wiping LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:04:03 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:04:03 Opened LevelDB successfully
+2019-05-30 15:04:03 Initializing databases...
+2019-05-30 15:04:03 init message: Bloklar kontrol ediliyor...
+2019-05-30 15:04:03  block index             314ms
+2019-05-30 15:04:03 init message: Cüzdan yükleniyor...
+2019-05-30 15:04:04 nFileVersion = 80705
+2019-05-30 15:04:04  wallet                  539ms
+2019-05-30 15:04:04 init message: Adresler yükleniyor...
+2019-05-30 15:04:04 Loaded 0 addresses from peers.dat  0ms
+2019-05-30 15:04:04 Reindexing block file blk00000.dat...
+2019-05-30 15:04:04 mapBlockIndex.size() = 0
+2019-05-30 15:04:04 nBestHeight = 0
+2019-05-30 15:04:04 setKeyPool.size() = 102
+2019-05-30 15:04:04 mapWallet.size() = 3
+2019-05-30 15:04:04 mapAddressBook.size() = 1
+2019-05-30 15:04:04 msghand thread start
+2019-05-30 15:04:04 dumpaddr thread start
+2019-05-30 15:04:04 opencon thread start
+2019-05-30 15:04:04 addcon thread start
+2019-05-30 15:04:04 net thread start
+2019-05-30 15:04:04 upnp thread start
+2019-05-30 15:04:04 dnsseed thread start
+2019-05-30 15:04:04 Loading addresses from DNS seeds (could take a while)
+2019-05-30 15:04:04 0 addresses found from DNS seeds
+2019-05-30 15:04:04 dnsseed thread exit
+2019-05-30 15:04:04 init message: Yükleme tamamlandı
+2019-05-30 15:04:04 SetBestChain: new best=64fd2fa4d98f81c256729cbba901395de638073b26527e3c6eeaca50498b916c  height=0  log2_work=20.000022  tx=1  date=2019-05-29 01:13:50 progress=0.388116
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=e15b68d8f131b5ad7a8765ee55a043f22b3ec159329fe22621f27e7af7239460  height=1  log2_work=21.000022  tx=2  date=2019-05-29 15:55:41 progress=0.674729
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=1d7b2d70674fb8e80b8684de0ea50f1d026de77fd9a18c1da16c87cc8127c80e  height=2  log2_work=21.584985  tx=3  date=2019-05-29 16:03:56 progress=0.757877
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=62c8bb66bc7bb015aab90baf81e4590998aa3e9f641a25b6cc0a9633313cce9b  height=3  log2_work=22.000022  tx=4  date=2019-05-29 16:08:55 progress=0.807271
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=1b6cb5e740241d5f32ae35f4c5b2c8b20509f02f34a54b33b735d393dd248e14  height=4  log2_work=22.32195  tx=5  date=2019-05-29 16:16:10 progress=0.840346
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=84dddff333848a89bf8a43f1156d049c908c8635170f8b0ebff38a80d9991029  height=5  log2_work=22.584985  tx=6  date=2019-05-29 16:16:50 progress=0.863375
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=31d17035d5f224e21a2ed59ab1a76611293f61e09b634861fdc18e18f6be1d96  height=6  log2_work=22.807377  tx=7  date=2019-05-29 16:17:29 progress=0.880612
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=8e4bcf16d68000c6d8054560a85b24de9b2b8a4311ff5844bf61573a696f1540  height=7  log2_work=23.000022  tx=8  date=2019-05-29 16:17:34 progress=0.893959
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=266af7f136be4738bef0bd0663e62cca8f286fb04f0610721aff1e54b4f5fc1f  height=8  log2_work=23.169947  tx=9  date=2019-05-29 16:17:59 progress=0.904644
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=9cc4e3a32a7442fc341b9e0c1238cecb600edf014bdffdaec4332f1e948effcc  height=9  log2_work=23.32195  tx=10  date=2019-05-29 16:20:30 progress=0.913499
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=ddb1e2875922baec325890455fee66a0c314024aee68266a1b8df0b259c599ea  height=10  log2_work=23.459454  tx=11  date=2019-05-29 16:22:07 progress=0.920826
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=e90667b1d78461c16ac9636b6e8bd579517a6ab5128673086181490802d45507  height=11  log2_work=23.584985  tx=12  date=2019-05-29 16:26:20 progress=0.927151
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=63815f61240c1157073884009438691a1c36f9081d194a7b796cffef9f9af576  height=12  log2_work=23.700462  tx=13  date=2019-05-29 16:26:42 progress=0.932393
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=1d73a167a0e869ce5d2a9639111242fe316e6f5f2dcf86c321def7248ef4ccd9  height=13  log2_work=23.807377  tx=14  date=2019-05-29 16:27:33 progress=0.936955
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=db501f4c9389d4f4d6ad360b92d512f382bd1d590d9bcc6eff3fe5b7d7c9c2e4  height=14  log2_work=23.906913  tx=15  date=2019-05-29 16:31:11 progress=0.941058
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=23f506c700d10f6e2889fac6b11eb526700f6baf696539db81f5e4880b3b6c5b  height=15  log2_work=24.000022  tx=16  date=2019-05-29 16:31:43 progress=0.944558
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=9085266947d8c281b4dbc3ec224ead5aa1d82fdc78a3ba26af4b0bf4c6949cf3  height=16  log2_work=24.087485  tx=17  date=2019-05-29 16:34:56 progress=0.947767
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=7799780988eea1d5190630e191a1221c130a21d68bf37897c6b9fb8101d81b7f  height=17  log2_work=24.169947  tx=18  date=2019-05-29 16:35:21 progress=0.950540
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 GetMyExternalIP() received [176.239.70.3] 176.239.70.3:0
+2019-05-30 15:04:04 GetMyExternalIP() returned 176.239.70.3
+2019-05-30 15:04:04 AddLocal(176.239.70.3:2333,4)
+2019-05-30 15:04:04 SetBestChain: new best=a6ae3a74089279ad58a98b2e53543320e8e4c48dbf255e91653cbd166ce94257  height=18  log2_work=24.24795  tx=19  date=2019-05-29 16:36:46 progress=0.953068
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=2115216c35dfcecb6d2a6a9a549b2a7e05575ad3e37d4179542435130ec8325a  height=19  log2_work=24.32195  tx=20  date=2019-05-29 23:42:04 progress=0.968979
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=eaaab36227d4f3d6553a67ab8f07772635342d0875b47ac10fa38e8d11d09137  height=20  log2_work=24.392339  tx=21  date=2019-05-29 23:42:16 progress=0.970419
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 AddToWallet afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1  
+2019-05-30 15:04:04 SetBestChain: new best=4348b093ac2a6b6182536ff5e7776e32749931d60e336a0f853f4063f3d2df2b  height=21  log2_work=24.459454  tx=22  date=2019-05-30 08:47:31 progress=0.988254
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=1cecd3b56d4c8628e6edc0ffa8702b057a0e838e37af6aa49970facb7932a46e  height=22  log2_work=24.523584  tx=23  date=2019-05-30 08:49:07 progress=0.988806
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 AddToWallet 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61  
+2019-05-30 15:04:04 SetBestChain: new best=38438d2f467bad032fcae3c14c3013c974b8544725dcba17b9579573473fc66a  height=23  log2_work=24.584985  tx=24  date=2019-05-30 08:50:17 progress=0.989300
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=4c529c7a023c2d016e409ddfffa8c1a158554e5518a3ec62b72cc7aa130852e7  height=24  log2_work=24.643878  tx=25  date=2019-05-30 08:51:11 progress=0.989748
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=ae78ceb4eb35411e29cdabad774a27681fd28ce7f8ad4e01b16716ad11d9b26a  height=25  log2_work=24.700462  tx=26  date=2019-05-30 08:52:55 progress=0.990184
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=a7a7391e312b377e968e8e806b3078117d61da12a4c79daebea8e6d12ee3e437  height=26  log2_work=24.75491  tx=27  date=2019-05-30 08:54:10 progress=0.990576
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=eec6ce9b6b9da6612c4c8f85c18f119a4c6cdba07cea7465014e0e6577f886f0  height=27  log2_work=24.807377  tx=28  date=2019-05-30 08:54:12 progress=0.990910
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 AddToWallet 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869  
+2019-05-30 15:04:04 SetBestChain: new best=eb8612b10329364a777e162cfd624ffbb78e84713c80ff754b2da88a37d793a2  height=28  log2_work=24.858003  tx=29  date=2019-05-30 08:56:13 progress=0.991268
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=a5e6fa534c0caa3406e3ad2193616fb1f6bf0b4a837d68eee418dcbb56e8746d  height=29  log2_work=24.906913  tx=30  date=2019-05-30 08:56:49 progress=0.991571
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=cf7c24f1a30c1f7566e06ef38f719c326e3f316767339f11e11b349fcd04bf8b  height=30  log2_work=24.954218  tx=31  date=2019-05-30 08:57:56 progress=0.991865
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=f645ac4cc358758452818781e9cd9a6cc6ccc0b6ab280d1c6b5fc5c38fd10820  height=31  log2_work=25.000022  tx=32  date=2019-05-30 08:58:21 progress=0.992126
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=1b7df94f845d23ea9a038d8a642531ac4e6d2954c54aa2ed65a851e55df1e3ea  height=32  log2_work=25.044416  tx=33  date=2019-05-30 08:58:22 progress=0.992363
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=97dce0a332240db97a05d4678832f7010693e9c6dc7b4bf80468d12d60ca8e5b  height=33  log2_work=25.087485  tx=34  date=2019-05-30 08:58:29 progress=0.992588
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=7c3d387937743b21c74ca757d349ff728e0d4456adbcf138f3dee567694c2381  height=34  log2_work=25.129305  tx=35  date=2019-05-30 08:58:39 progress=0.992802
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=b2063b240643eb18922b57e96444bdca17f88a2eee3b4d6fbe3881fe748cb2b3  height=35  log2_work=25.169947  tx=36  date=2019-05-30 08:58:47 progress=0.993003
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=6fd34f98e02c49dc604ffa342bb5047164ad8859014deba2ebfc06dd9a6d717f  height=36  log2_work=25.209475  tx=37  date=2019-05-30 09:01:37 progress=0.993243
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=a010973e6809ed595d74be8054ac791f97efdae3addf8e98ec66df2f4b08d95e  height=37  log2_work=25.24795  tx=38  date=2019-05-30 09:02:35 progress=0.993437
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=fb2dbbd5942c741625fdf2a0e7798151a1dd20dbe6b09694687e973fe4139b97  height=38  log2_work=25.285424  tx=41  date=2019-05-30 09:15:55 progress=0.994138
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=abfd279ee6b350b049e1de49137db6049ab1415ff629f386bd45f059baeb69ff  height=39  log2_work=25.32195  tx=42  date=2019-05-30 09:16:31 progress=0.994286
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=52523126826663695b7e15acad7322545ce2ad4c940b2d181869f1acedbe0d0f  height=40  log2_work=25.357574  tx=44  date=2019-05-30 09:16:33 progress=0.994545
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=1107fc264ba95e1791699dcdd9f19dd77edb5a6614c362d8b015f16003c816d9  height=41  log2_work=25.392339  tx=45  date=2019-05-30 09:16:37 progress=0.994667
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=4b394471b6aafa4e88bf19906c0d7de714a85375e22a0e9605851d9147826deb  height=42  log2_work=25.426287  tx=48  date=2019-05-30 09:19:02 progress=0.995033
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=d6d70f06f4d2fcdaaf179d7056481bcc0806f3659f4dce8b0c1e99ad5671469c  height=43  log2_work=25.459454  tx=49  date=2019-05-30 09:20:22 progress=0.995153
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=51f8c9714f6594ed311069621f408ae980c58858f6f935e6282be43455428bd6  height=44  log2_work=25.491875  tx=50  date=2019-05-30 09:22:32 progress=0.995279
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=e9152a4a566f8f8cf56a978f66ac3c040bbab9d342a325ac64366eca9a34ad73  height=45  log2_work=25.523584  tx=51  date=2019-05-30 09:23:35 progress=0.995385
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=fbb4c7f7bda105afe755cc8c0ac4769a0754311623083052fd020780a9922ae3  height=46  log2_work=25.554611  tx=52  date=2019-05-30 09:26:11 progress=0.995508
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=e286d296efd8c268b4430fde33ebada54c82aac2241591ae7d73ee79f8279347  height=47  log2_work=25.584985  tx=53  date=2019-05-30 09:26:59 progress=0.995603
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=ed8c57ed9e22923fad51f741bc07c4b441beb57993dec183caa97d2e8d5cfe3c  height=48  log2_work=25.614732  tx=54  date=2019-05-30 09:28:08 progress=0.995698
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=7c38029c828c8d624781979d6b6c05373ea6aec964e286554956984977572a81  height=49  log2_work=25.643878  tx=55  date=2019-05-30 09:32:32 progress=0.995831
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=db78345f7de12f664cd677dfd16bade98ee7888cee72261e6455bf2bce9474b7  height=50  log2_work=25.672447  tx=56  date=2019-05-30 09:32:37 progress=0.995907
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=015cf7fb3fde7505e3b8d6c581fbc6fb315b5866b564e6341d69e8a0da6e1b38  height=51  log2_work=25.700462  tx=57  date=2019-05-30 09:37:31 progress=0.996037
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=900af17dee02482aa17c17c82f7f91e69190fa86318233b99bf22f7dfeadc181  height=52  log2_work=25.727942  tx=58  date=2019-05-30 09:40:01 progress=0.996135
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=dacd65c0b2b66ec05862b3cd4d106214b9834af5448f262165ad419eb64aa5b7  height=53  log2_work=25.75491  tx=59  date=2019-05-30 09:40:58 progress=0.996211
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=a86cf708dcfed199f9829da6bea318d9e1aa66fd64874814aa6ac715b7938cc8  height=54  log2_work=25.781382  tx=60  date=2019-05-30 09:42:33 progress=0.996293
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c  height=55  log2_work=25.807377  tx=61  date=2019-05-30 09:46:56 progress=0.996403
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:04 SetBestChain: new best=e343629da79c9bb8e38746a0f9581f0260334c33066f12e15dd95f82dbe9b2a2  height=56  log2_work=25.832912  tx=62  date=2019-05-30 09:50:39 progress=0.996502
+2019-05-30 15:04:04 ProcessBlock: ACCEPTED
+2019-05-30 15:04:05 Loaded 57 blocks from external file in 1158ms
+2019-05-30 15:04:05 Unable to open file /home/ubuntu/.sirius/blocks/blk00001.dat
+2019-05-30 15:04:05 Reindexing finished
+2019-05-30 15:04:06 refreshWallet
+2019-05-30 15:04:06 Flushing wallet.dat
+2019-05-30 15:04:06 Flushed wallet.dat 22ms
+2019-05-30 15:04:08 No valid UPnP IGDs found
+2019-05-30 15:04:08 upnp thread exit
+2019-05-30 15:06:28 accepted connection 192.168.8.123:60008
+2019-05-30 15:06:28 send version message: version 70002, blocks=56, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:60008
+2019-05-30 15:06:28 Added time data, samples 2, offset +0 (+0 minutes)
+2019-05-30 15:06:28 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=56, us=0.0.0.0:0, them=0.0.0.0:0, peer=192.168.8.123:60008
+2019-05-30 15:06:28 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-30 15:09:52 SiriusMiner started
+2019-05-30 15:09:52 keypool reserve 5
+2019-05-30 15:09:53 CreateNewBlock(): total size 1000
+2019-05-30 15:09:53 Running SiriusMiner with 1 transactions in block (187 bytes)
+2019-05-30 15:09:57 hashmeter      2 khash/s
+2019-05-30 15:11:18 addcon thread interrupt
+2019-05-30 15:11:18 opencon thread interrupt
+2019-05-30 15:11:18 msghand thread interrupt
+2019-05-30 15:11:18 dumpaddr thread stop
+2019-05-30 15:11:18 net thread interrupt
+2019-05-30 15:11:18 Shutdown : In progress...
+2019-05-30 15:11:18 Flush(false)
+2019-05-30 15:11:18 wallet.dat refcount=0
+2019-05-30 15:11:18 wallet.dat checkpoint
+2019-05-30 15:11:18 wallet.dat detach
+2019-05-30 15:11:18 wallet.dat closed
+2019-05-30 15:11:18 DBFlush(false) ended              74ms
+2019-05-30 15:11:18 StopNode()
+2019-05-30 15:11:18 Flushed 0 addresses to peers.dat  3ms
+2019-05-30 15:11:18 SiriusMiner terminated
+2019-05-30 15:11:18 keypool return 5
+2019-05-30 15:11:18 Committing 61 changed transactions to coin database...
+2019-05-30 15:11:18 Flush(true)
+2019-05-30 15:11:18 wallet.dat refcount=0
+2019-05-30 15:11:18 wallet.dat checkpoint
+2019-05-30 15:11:18 wallet.dat detach
+2019-05-30 15:11:18 wallet.dat closed
+2019-05-30 15:11:18 DBFlush(true) ended               6ms
+2019-05-30 15:11:18 Shutdown : done
+2019-05-30 15:11:25 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-30 15:11:25 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-30 15:11:25 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-30 15:11:25 Default data directory /home/ubuntu/.sirius
+2019-05-30 15:11:25 Using data directory /home/ubuntu/.sirius
+2019-05-30 15:11:25 Using at most 125 connections (1024 file descriptors available)
+2019-05-30 15:11:25 init message: Cüzdan kontrol ediliyor...
+2019-05-30 15:11:25 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-30 15:11:25 Bound to [::]:2333
+2019-05-30 15:11:25 Bound to 0.0.0.0:2333
+2019-05-30 15:11:25 init message: Blok indeksi yükleniyor...
+2019-05-30 15:11:25 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:11:25 Opened LevelDB successfully
+2019-05-30 15:11:25 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:11:25 Opened LevelDB successfully
+2019-05-30 15:11:25 LoadBlockIndexDB(): last block file = 0
+2019-05-30 15:11:25 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=114, size=24958, heights=0...56, time=2019-05-29...2019-05-30)
+2019-05-30 15:11:25 LoadBlockIndexDB(): transaction index enabled
+2019-05-30 15:11:25 LoadBlockIndexDB(): hashBestChain=e343629da79c9bb8e38746a0f9581f0260334c33066f12e15dd95f82dbe9b2a2  height=56 date=2019-05-30 09:50:39
+2019-05-30 15:11:29 init message: Blok indeksi yükleniyor...
+2019-05-30 15:11:29 Wiping LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:11:29 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:11:29 Opened LevelDB successfully
+2019-05-30 15:11:29 Wiping LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:11:29 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:11:29 Opened LevelDB successfully
+2019-05-30 15:11:29 Initializing databases...
+2019-05-30 15:11:29 init message: Bloklar kontrol ediliyor...
+2019-05-30 15:11:29  block index              27ms
+2019-05-30 15:11:29 init message: Cüzdan yükleniyor...
+2019-05-30 15:11:29 nFileVersion = 80705
+2019-05-30 15:11:29  wallet                  760ms
+2019-05-30 15:11:29 init message: Adresler yükleniyor...
+2019-05-30 15:11:29 Loaded 0 addresses from peers.dat  1ms
+2019-05-30 15:11:29 mapBlockIndex.size() = 0
+2019-05-30 15:11:29 nBestHeight = 0
+2019-05-30 15:11:29 setKeyPool.size() = 102
+2019-05-30 15:11:29 mapWallet.size() = 3
+2019-05-30 15:11:29 mapAddressBook.size() = 1
+2019-05-30 15:11:29 opencon thread start
+2019-05-30 15:11:29 addcon thread start
+2019-05-30 15:11:29 trying connection 54.202.151.47:2333 lastseen=405341.4hrs
+2019-05-30 15:11:29 msghand thread start
+2019-05-30 15:11:29 net thread start
+2019-05-30 15:11:29 upnp thread start
+2019-05-30 15:11:29 dnsseed thread start
+2019-05-30 15:11:29 Loading addresses from DNS seeds (could take a while)
+2019-05-30 15:11:29 0 addresses found from DNS seeds
+2019-05-30 15:11:29 dnsseed thread exit
+2019-05-30 15:11:29 dumpaddr thread start
+2019-05-30 15:11:29 Reindexing block file blk00000.dat...
+2019-05-30 15:11:29 init message: Yükleme tamamlandı
+2019-05-30 15:11:29 SetBestChain: new best=64fd2fa4d98f81c256729cbba901395de638073b26527e3c6eeaca50498b916c  height=0  log2_work=20.000022  tx=1  date=2019-05-29 01:13:50 progress=0.387341
+2019-05-30 15:11:29 ProcessBlock: ACCEPTED
+2019-05-30 15:11:29 SetBestChain: new best=e15b68d8f131b5ad7a8765ee55a043f22b3ec159329fe22621f27e7af7239460  height=1  log2_work=21.000022  tx=2  date=2019-05-29 15:55:41 progress=0.673558
+2019-05-30 15:11:29 ProcessBlock: ACCEPTED
+2019-05-30 15:11:29 SetBestChain: new best=1d7b2d70674fb8e80b8684de0ea50f1d026de77fd9a18c1da16c87cc8127c80e  height=2  log2_work=21.584985  tx=3  date=2019-05-29 16:03:56 progress=0.756892
+2019-05-30 15:11:29 ProcessBlock: ACCEPTED
+2019-05-30 15:11:29 SetBestChain: new best=62c8bb66bc7bb015aab90baf81e4590998aa3e9f641a25b6cc0a9633313cce9b  height=3  log2_work=22.000022  tx=4  date=2019-05-29 16:08:55 progress=0.806433
+2019-05-30 15:11:29 ProcessBlock: ACCEPTED
+2019-05-30 15:11:29 SetBestChain: new best=1b6cb5e740241d5f32ae35f4c5b2c8b20509f02f34a54b33b735d393dd248e14  height=4  log2_work=22.32195  tx=5  date=2019-05-29 16:16:10 progress=0.839619
+2019-05-30 15:11:29 ProcessBlock: ACCEPTED
+2019-05-30 15:11:29 SetBestChain: new best=84dddff333848a89bf8a43f1156d049c908c8635170f8b0ebff38a80d9991029  height=5  log2_work=22.584985  tx=6  date=2019-05-29 16:16:50 progress=0.862736
+2019-05-30 15:11:29 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=31d17035d5f224e21a2ed59ab1a76611293f61e09b634861fdc18e18f6be1d96  height=6  log2_work=22.807377  tx=7  date=2019-05-29 16:17:29 progress=0.880041
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=8e4bcf16d68000c6d8054560a85b24de9b2b8a4311ff5844bf61573a696f1540  height=7  log2_work=23.000022  tx=8  date=2019-05-29 16:17:34 progress=0.893443
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=266af7f136be4738bef0bd0663e62cca8f286fb04f0610721aff1e54b4f5fc1f  height=8  log2_work=23.169947  tx=9  date=2019-05-29 16:17:59 progress=0.904174
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=9cc4e3a32a7442fc341b9e0c1238cecb600edf014bdffdaec4332f1e948effcc  height=9  log2_work=23.32195  tx=10  date=2019-05-29 16:20:30 progress=0.913068
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=ddb1e2875922baec325890455fee66a0c314024aee68266a1b8df0b259c599ea  height=10  log2_work=23.459454  tx=11  date=2019-05-29 16:22:07 progress=0.920428
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=e90667b1d78461c16ac9636b6e8bd579517a6ab5128673086181490802d45507  height=11  log2_work=23.584985  tx=12  date=2019-05-29 16:26:20 progress=0.926782
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=63815f61240c1157073884009438691a1c36f9081d194a7b796cffef9f9af576  height=12  log2_work=23.700462  tx=13  date=2019-05-29 16:26:42 progress=0.932048
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 GetMyExternalIP() received [176.239.70.3] 176.239.70.3:0
+2019-05-30 15:11:30 GetMyExternalIP() returned 176.239.70.3
+2019-05-30 15:11:30 AddLocal(176.239.70.3:2333,4)
+2019-05-30 15:11:30 SetBestChain: new best=1d73a167a0e869ce5d2a9639111242fe316e6f5f2dcf86c321def7248ef4ccd9  height=13  log2_work=23.807377  tx=14  date=2019-05-29 16:27:33 progress=0.936631
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=db501f4c9389d4f4d6ad360b92d512f382bd1d590d9bcc6eff3fe5b7d7c9c2e4  height=14  log2_work=23.906913  tx=15  date=2019-05-29 16:31:11 progress=0.940754
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=23f506c700d10f6e2889fac6b11eb526700f6baf696539db81f5e4880b3b6c5b  height=15  log2_work=24.000022  tx=16  date=2019-05-29 16:31:43 progress=0.944271
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=9085266947d8c281b4dbc3ec224ead5aa1d82fdc78a3ba26af4b0bf4c6949cf3  height=16  log2_work=24.087485  tx=17  date=2019-05-29 16:34:56 progress=0.947494
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=7799780988eea1d5190630e191a1221c130a21d68bf37897c6b9fb8101d81b7f  height=17  log2_work=24.169947  tx=18  date=2019-05-29 16:35:21 progress=0.950281
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=a6ae3a74089279ad58a98b2e53543320e8e4c48dbf255e91653cbd166ce94257  height=18  log2_work=24.24795  tx=19  date=2019-05-29 16:36:46 progress=0.952821
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=2115216c35dfcecb6d2a6a9a549b2a7e05575ad3e37d4179542435130ec8325a  height=19  log2_work=24.32195  tx=20  date=2019-05-29 23:42:04 progress=0.968737
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=eaaab36227d4f3d6553a67ab8f07772635342d0875b47ac10fa38e8d11d09137  height=20  log2_work=24.392339  tx=21  date=2019-05-29 23:42:16 progress=0.970187
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 AddToWallet afd3f4db60edf5e4fddeb239034ce46987f2fd5d11b859c3fd32adab349c0ad1  
+2019-05-30 15:11:30 SetBestChain: new best=4348b093ac2a6b6182536ff5e7776e32749931d60e336a0f853f4063f3d2df2b  height=21  log2_work=24.459454  tx=22  date=2019-05-30 08:47:31 progress=0.988024
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=1cecd3b56d4c8628e6edc0ffa8702b057a0e838e37af6aa49970facb7932a46e  height=22  log2_work=24.523584  tx=23  date=2019-05-30 08:49:07 progress=0.988586
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 AddToWallet 189fd6ec286def63bf0a5a2297d1528ba771ea6eaf569387dc4af06abcc3af61  
+2019-05-30 15:11:30 SetBestChain: new best=38438d2f467bad032fcae3c14c3013c974b8544725dcba17b9579573473fc66a  height=23  log2_work=24.584985  tx=24  date=2019-05-30 08:50:17 progress=0.989090
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=4c529c7a023c2d016e409ddfffa8c1a158554e5518a3ec62b72cc7aa130852e7  height=24  log2_work=24.643878  tx=25  date=2019-05-30 08:51:11 progress=0.989546
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=ae78ceb4eb35411e29cdabad774a27681fd28ce7f8ad4e01b16716ad11d9b26a  height=25  log2_work=24.700462  tx=26  date=2019-05-30 08:52:55 progress=0.989989
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=a7a7391e312b377e968e8e806b3078117d61da12a4c79daebea8e6d12ee3e437  height=26  log2_work=24.75491  tx=27  date=2019-05-30 08:54:10 progress=0.990388
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=eec6ce9b6b9da6612c4c8f85c18f119a4c6cdba07cea7465014e0e6577f886f0  height=27  log2_work=24.807377  tx=28  date=2019-05-30 08:54:12 progress=0.990729
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 AddToWallet 16546890308b71f600ef278ee978eba2894a3061882dbb098d1dbe8258f85869  
+2019-05-30 15:11:30 SetBestChain: new best=eb8612b10329364a777e162cfd624ffbb78e84713c80ff754b2da88a37d793a2  height=28  log2_work=24.858003  tx=29  date=2019-05-30 08:56:13 progress=0.991093
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=a5e6fa534c0caa3406e3ad2193616fb1f6bf0b4a837d68eee418dcbb56e8746d  height=29  log2_work=24.906913  tx=30  date=2019-05-30 08:56:49 progress=0.991401
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=cf7c24f1a30c1f7566e06ef38f719c326e3f316767339f11e11b349fcd04bf8b  height=30  log2_work=24.954218  tx=31  date=2019-05-30 08:57:56 progress=0.991701
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=f645ac4cc358758452818781e9cd9a6cc6ccc0b6ab280d1c6b5fc5c38fd10820  height=31  log2_work=25.000022  tx=32  date=2019-05-30 08:58:21 progress=0.991967
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=1b7df94f845d23ea9a038d8a642531ac4e6d2954c54aa2ed65a851e55df1e3ea  height=32  log2_work=25.044416  tx=33  date=2019-05-30 08:58:22 progress=0.992209
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=97dce0a332240db97a05d4678832f7010693e9c6dc7b4bf80468d12d60ca8e5b  height=33  log2_work=25.087485  tx=34  date=2019-05-30 08:58:29 progress=0.992439
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=7c3d387937743b21c74ca757d349ff728e0d4456adbcf138f3dee567694c2381  height=34  log2_work=25.129305  tx=35  date=2019-05-30 08:58:39 progress=0.992657
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=b2063b240643eb18922b57e96444bdca17f88a2eee3b4d6fbe3881fe748cb2b3  height=35  log2_work=25.169947  tx=36  date=2019-05-30 08:58:47 progress=0.992862
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=6fd34f98e02c49dc604ffa342bb5047164ad8859014deba2ebfc06dd9a6d717f  height=36  log2_work=25.209475  tx=37  date=2019-05-30 09:01:37 progress=0.993106
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=a010973e6809ed595d74be8054ac791f97efdae3addf8e98ec66df2f4b08d95e  height=37  log2_work=25.24795  tx=38  date=2019-05-30 09:02:35 progress=0.993303
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=fb2dbbd5942c741625fdf2a0e7798151a1dd20dbe6b09694687e973fe4139b97  height=38  log2_work=25.285424  tx=41  date=2019-05-30 09:15:55 progress=0.994013
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=abfd279ee6b350b049e1de49137db6049ab1415ff629f386bd45f059baeb69ff  height=39  log2_work=25.32195  tx=42  date=2019-05-30 09:16:31 progress=0.994165
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=52523126826663695b7e15acad7322545ce2ad4c940b2d181869f1acedbe0d0f  height=40  log2_work=25.357574  tx=44  date=2019-05-30 09:16:33 progress=0.994429
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=1107fc264ba95e1791699dcdd9f19dd77edb5a6614c362d8b015f16003c816d9  height=41  log2_work=25.392339  tx=45  date=2019-05-30 09:16:37 progress=0.994553
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=4b394471b6aafa4e88bf19906c0d7de714a85375e22a0e9605851d9147826deb  height=42  log2_work=25.426287  tx=48  date=2019-05-30 09:19:02 progress=0.994927
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=d6d70f06f4d2fcdaaf179d7056481bcc0806f3659f4dce8b0c1e99ad5671469c  height=43  log2_work=25.459454  tx=49  date=2019-05-30 09:20:22 progress=0.995048
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=51f8c9714f6594ed311069621f408ae980c58858f6f935e6282be43455428bd6  height=44  log2_work=25.491875  tx=50  date=2019-05-30 09:22:32 progress=0.995177
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=e9152a4a566f8f8cf56a978f66ac3c040bbab9d342a325ac64366eca9a34ad73  height=45  log2_work=25.523584  tx=51  date=2019-05-30 09:23:35 progress=0.995285
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=fbb4c7f7bda105afe755cc8c0ac4769a0754311623083052fd020780a9922ae3  height=46  log2_work=25.554611  tx=52  date=2019-05-30 09:26:11 progress=0.995410
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=e286d296efd8c268b4430fde33ebada54c82aac2241591ae7d73ee79f8279347  height=47  log2_work=25.584985  tx=53  date=2019-05-30 09:26:59 progress=0.995506
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=ed8c57ed9e22923fad51f741bc07c4b441beb57993dec183caa97d2e8d5cfe3c  height=48  log2_work=25.614732  tx=54  date=2019-05-30 09:28:08 progress=0.995604
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=7c38029c828c8d624781979d6b6c05373ea6aec964e286554956984977572a81  height=49  log2_work=25.643878  tx=55  date=2019-05-30 09:32:32 progress=0.995738
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=db78345f7de12f664cd677dfd16bade98ee7888cee72261e6455bf2bce9474b7  height=50  log2_work=25.672447  tx=56  date=2019-05-30 09:32:37 progress=0.995815
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=015cf7fb3fde7505e3b8d6c581fbc6fb315b5866b564e6341d69e8a0da6e1b38  height=51  log2_work=25.700462  tx=57  date=2019-05-30 09:37:31 progress=0.995947
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=900af17dee02482aa17c17c82f7f91e69190fa86318233b99bf22f7dfeadc181  height=52  log2_work=25.727942  tx=58  date=2019-05-30 09:40:01 progress=0.996047
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=dacd65c0b2b66ec05862b3cd4d106214b9834af5448f262165ad419eb64aa5b7  height=53  log2_work=25.75491  tx=59  date=2019-05-30 09:40:58 progress=0.996125
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=a86cf708dcfed199f9829da6bea318d9e1aa66fd64874814aa6ac715b7938cc8  height=54  log2_work=25.781382  tx=60  date=2019-05-30 09:42:33 progress=0.996207
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=7b225ab8281a8dbe4822632023af0795790dac9a27318d5f162341a27b42061c  height=55  log2_work=25.807377  tx=61  date=2019-05-30 09:46:56 progress=0.996319
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:30 SetBestChain: new best=e343629da79c9bb8e38746a0f9581f0260334c33066f12e15dd95f82dbe9b2a2  height=56  log2_work=25.832912  tx=62  date=2019-05-30 09:50:39 progress=0.996419
+2019-05-30 15:11:30 ProcessBlock: ACCEPTED
+2019-05-30 15:11:31 Loaded 57 blocks from external file in 1355ms
+2019-05-30 15:11:31 Unable to open file /home/ubuntu/.sirius/blocks/blk00001.dat
+2019-05-30 15:11:31 Reindexing finished
+2019-05-30 15:11:31 refreshWallet
+2019-05-30 15:11:32 Flushing wallet.dat
+2019-05-30 15:11:32 Flushed wallet.dat 51ms
+2019-05-30 15:11:33 No valid UPnP IGDs found
+2019-05-30 15:11:33 upnp thread exit
+2019-05-30 15:11:34 connection timeout
+2019-05-30 15:12:28 accepted connection 192.168.8.123:60014
+2019-05-30 15:12:28 send version message: version 70002, blocks=56, us=176.239.70.3:2333, them=0.0.0.0:0, peer=192.168.8.123:60014
+2019-05-30 15:12:28 Added time data, samples 2, offset +0 (+0 minutes)
+2019-05-30 15:12:28 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=56, us=0.0.0.0:0, them=176.239.70.3:2333, peer=192.168.8.123:60014
+2019-05-30 15:12:28 Added 1 addresses from 192.168.8.123: 0 tried, 1 new
+2019-05-30 15:12:28 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-30 15:12:51 received block 1e26d523bd58866554a0da9c0f6a66d84d8d37cb086e30b109ccdded11eb8caa
+2019-05-30 15:12:51 Committing 62 changed transactions to coin database...
+2019-05-30 15:12:51 SetBestChain: new best=1e26d523bd58866554a0da9c0f6a66d84d8d37cb086e30b109ccdded11eb8caa  height=57  log2_work=25.858003  tx=63  date=2019-05-30 15:12:51 progress=1.000000
+2019-05-30 15:12:51 ProcessBlock: ACCEPTED
+2019-05-30 15:12:52 received block 94b8452b5517aeba4f36fb0315b6e259c1c193946131a91acaa25f74e42112c4
+2019-05-30 15:12:52 Committing 1 changed transactions to coin database...
+2019-05-30 15:12:52 SetBestChain: new best=94b8452b5517aeba4f36fb0315b6e259c1c193946131a91acaa25f74e42112c4  height=58  log2_work=25.882665  tx=64  date=2019-05-30 15:12:52 progress=1.000000
+2019-05-30 15:12:52 ProcessBlock: ACCEPTED
+2019-05-30 15:13:35 trying connection 54.202.151.47:2333 lastseen=405341.4hrs
+2019-05-30 15:13:40 connection timeout
+2019-05-30 15:15:40 trying connection 54.202.151.47:2333 lastseen=405341.5hrs
+2019-05-30 15:15:45 connection timeout
+2019-05-30 15:16:22 received block b229413602f9f39cd7381a302d5284d1f3e8acf9043dcd576c20a7b43b936290
+2019-05-30 15:16:22 Committing 1 changed transactions to coin database...
+2019-05-30 15:16:22 SetBestChain: new best=b229413602f9f39cd7381a302d5284d1f3e8acf9043dcd576c20a7b43b936290  height=59  log2_work=25.906913  tx=65  date=2019-05-30 15:16:22 progress=1.000000
+2019-05-30 15:16:22 ProcessBlock: ACCEPTED
+2019-05-30 15:16:51 received block b9d4ce143bad1d6da17076f64c5e0c25471ac66781f522ca0a4be81e7aa1d17e
+2019-05-30 15:16:51 Committing 1 changed transactions to coin database...
+2019-05-30 15:16:51 SetBestChain: new best=b9d4ce143bad1d6da17076f64c5e0c25471ac66781f522ca0a4be81e7aa1d17e  height=60  log2_work=25.930759  tx=66  date=2019-05-30 15:16:51 progress=1.000000
+2019-05-30 15:16:51 ProcessBlock: ACCEPTED
+2019-05-30 15:17:46 trying connection 54.202.151.47:2333 lastseen=405341.5hrs
+2019-05-30 15:17:51 connection timeout
+2019-05-30 15:19:06 received block 5131eac496ed8fde75f3731740617e59e360729e4d09e9285bb9bc37212059f2
+2019-05-30 15:19:06 Committing 1 changed transactions to coin database...
+2019-05-30 15:19:06 SetBestChain: new best=5131eac496ed8fde75f3731740617e59e360729e4d09e9285bb9bc37212059f2  height=61  log2_work=25.954218  tx=67  date=2019-05-30 15:19:06 progress=1.000000
+2019-05-30 15:19:06 ProcessBlock: ACCEPTED
+2019-05-30 15:19:43 received block 7e3bb05342ffc2b2388f987c473e9fb6b2fb1d6e7bb0269593e40dac3655eed9
+2019-05-30 15:19:43 Committing 1 changed transactions to coin database...
+2019-05-30 15:19:43 SetBestChain: new best=7e3bb05342ffc2b2388f987c473e9fb6b2fb1d6e7bb0269593e40dac3655eed9  height=62  log2_work=25.977302  tx=68  date=2019-05-30 15:19:43 progress=1.000000
+2019-05-30 15:19:43 ProcessBlock: ACCEPTED
+2019-05-30 15:19:51 trying connection 54.202.151.47:2333 lastseen=405341.6hrs
+2019-05-30 15:19:56 connection timeout
+2019-05-30 15:21:07 received block 87d3b6247d8761a77619d5126a1b21b70fffe5ebdddf5afbf36211194f151a5f
+2019-05-30 15:21:07 Committing 1 changed transactions to coin database...
+2019-05-30 15:21:07 SetBestChain: new best=87d3b6247d8761a77619d5126a1b21b70fffe5ebdddf5afbf36211194f151a5f  height=63  log2_work=26.000022  tx=69  date=2019-05-30 15:21:07 progress=1.000000
+2019-05-30 15:21:07 ProcessBlock: ACCEPTED
+2019-05-30 15:21:31 addcon thread interrupt
+2019-05-30 15:21:31 msghand thread interrupt
+2019-05-30 15:21:31 dumpaddr thread stop
+2019-05-30 15:21:31 net thread interrupt
+2019-05-30 15:21:31 opencon thread interrupt
+2019-05-30 15:21:31 Shutdown : In progress...
+2019-05-30 15:21:31 Flush(false)
+2019-05-30 15:21:31 DBFlush(false) ended               0ms
+2019-05-30 15:21:31 StopNode()
+2019-05-30 15:21:31 Flushed 1 addresses to peers.dat  5ms
+2019-05-30 15:21:31 Committing 0 changed transactions to coin database...
+2019-05-30 15:21:31 Flush(true)
+2019-05-30 15:21:31 wallet.dat refcount=0
+2019-05-30 15:21:31 wallet.dat checkpoint
+2019-05-30 15:21:31 wallet.dat detach
+2019-05-30 15:21:31 wallet.dat closed
+2019-05-30 15:21:31 DBFlush(true) ended              45ms
+2019-05-30 15:21:31 Shutdown : done
+2019-05-30 15:21:50 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-30 15:21:50 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-30 15:21:50 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-30 15:21:50 Default data directory /home/ubuntu/.sirius
+2019-05-30 15:21:50 Using data directory /home/ubuntu/.sirius
+2019-05-30 15:21:50 Using at most 125 connections (1024 file descriptors available)
+2019-05-30 15:21:51 init message: Cüzdan kontrol ediliyor...
+2019-05-30 15:21:51 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-30 15:21:51 Bound to [::]:2333
+2019-05-30 15:21:51 Bound to 0.0.0.0:2333
+2019-05-30 15:21:51 init message: Blok indeksi yükleniyor...
+2019-05-30 15:21:51 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:21:51 Opened LevelDB successfully
+2019-05-30 15:21:51 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:21:51 Opened LevelDB successfully
+2019-05-30 15:21:51 LoadBlockIndexDB(): last block file = 0
+2019-05-30 15:21:51 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=178, size=38802, heights=0...63, time=2019-05-29...2019-05-30)
+2019-05-30 15:21:51 LoadBlockIndexDB(): transaction index disabled
+2019-05-30 15:21:51 LoadBlockIndexDB(): hashBestChain=87d3b6247d8761a77619d5126a1b21b70fffe5ebdddf5afbf36211194f151a5f  height=63 date=2019-05-30 15:21:07
+2019-05-30 15:21:51 init message: Bloklar kontrol ediliyor...
+2019-05-30 15:21:51 Verifying last 63 blocks at level 3
+2019-05-30 15:21:51 No coin database inconsistencies in last 63 blocks (68 transactions)
+2019-05-30 15:21:51  block index             334ms
+2019-05-30 15:21:51 init message: Cüzdan yükleniyor...
+2019-05-30 15:21:51 nFileVersion = 80705
+2019-05-30 15:21:51  wallet                  563ms
+2019-05-30 15:21:51 init message: Adresler yükleniyor...
+2019-05-30 15:21:51 Loaded 1 addresses from peers.dat  0ms
+2019-05-30 15:21:51 mapBlockIndex.size() = 64
+2019-05-30 15:21:51 nBestHeight = 63
+2019-05-30 15:21:51 setKeyPool.size() = 102
+2019-05-30 15:21:51 mapWallet.size() = 3
+2019-05-30 15:21:51 mapAddressBook.size() = 1
+2019-05-30 15:21:51 opencon thread start
+2019-05-30 15:21:51 msghand thread start
+2019-05-30 15:21:51 dumpaddr thread start
+2019-05-30 15:21:51 addcon thread start
+2019-05-30 15:21:51 trying connection 54.202.151.47:2333 lastseen=405341.6hrs
+2019-05-30 15:21:51 net thread start
+2019-05-30 15:21:51 upnp thread start
+2019-05-30 15:21:51 dnsseed thread start
+2019-05-30 15:21:51 Loading addresses from DNS seeds (could take a while)
+2019-05-30 15:21:51 0 addresses found from DNS seeds
+2019-05-30 15:21:51 dnsseed thread exit
+2019-05-30 15:21:51 init message: Yükleme tamamlandı
+2019-05-30 15:21:52 GetMyExternalIP() received [176.239.70.3] 176.239.70.3:0
+2019-05-30 15:21:52 GetMyExternalIP() returned 176.239.70.3
+2019-05-30 15:21:52 AddLocal(176.239.70.3:2333,4)
+2019-05-30 15:21:53 refreshWallet
+2019-05-30 15:21:56 No valid UPnP IGDs found
+2019-05-30 15:21:56 upnp thread exit
+2019-05-30 15:21:56 connection timeout
+2019-05-30 15:23:57 trying connection 54.202.151.47:2333 lastseen=405341.6hrs
+2019-05-30 15:24:02 connection timeout
+2019-05-30 15:26:02 trying connection 54.202.151.47:2333 lastseen=405341.7hrs
+2019-05-30 15:26:07 connection timeout
+2019-05-30 15:55:06 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-30 15:55:06 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-30 15:55:06 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-30 15:55:06 Default data directory /home/ubuntu/.sirius
+2019-05-30 15:55:06 Using data directory /home/ubuntu/.sirius
+2019-05-30 15:55:06 Using at most 125 connections (1024 file descriptors available)
+2019-05-30 15:55:06 init message: Cüzdan kontrol ediliyor...
+2019-05-30 15:55:06 dbenv.open LogDir=/home/ubuntu/.sirius/database ErrorFile=/home/ubuntu/.sirius/db.log
+2019-05-30 15:55:06 Bound to [::]:2333
+2019-05-30 15:55:06 Bound to 0.0.0.0:2333
+2019-05-30 15:55:06 init message: Blok indeksi yükleniyor...
+2019-05-30 15:55:06 Opening LevelDB in /home/ubuntu/.sirius/blocks/index
+2019-05-30 15:55:06 Opened LevelDB successfully
+2019-05-30 15:55:06 Opening LevelDB in /home/ubuntu/.sirius/chainstate
+2019-05-30 15:55:06 Opened LevelDB successfully
+2019-05-30 15:55:06 LoadBlockIndexDB(): last block file = 0
+2019-05-30 15:55:06 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=178, size=38802, heights=0...63, time=2019-05-29...2019-05-30)
+2019-05-30 15:55:06 LoadBlockIndexDB(): transaction index disabled
+2019-05-30 15:55:06 LoadBlockIndexDB(): hashBestChain=87d3b6247d8761a77619d5126a1b21b70fffe5ebdddf5afbf36211194f151a5f  height=63 date=2019-05-30 15:21:07
+2019-05-30 15:55:06 init message: Bloklar kontrol ediliyor...
+2019-05-30 15:55:06 Verifying last 63 blocks at level 3
+2019-05-30 15:55:07 No coin database inconsistencies in last 63 blocks (68 transactions)
+2019-05-30 15:55:07  block index             276ms
+2019-05-30 15:55:07 init message: Cüzdan yükleniyor...
+2019-05-30 15:55:07 nFileVersion = 80705
+2019-05-30 15:55:07  wallet                  322ms
+2019-05-30 15:55:07 init message: Adresler yükleniyor...
+2019-05-30 15:55:07 Loaded 1 addresses from peers.dat  34ms
+2019-05-30 15:55:07 mapBlockIndex.size() = 64
+2019-05-30 15:55:07 nBestHeight = 63
+2019-05-30 15:55:07 setKeyPool.size() = 102
+2019-05-30 15:55:07 mapWallet.size() = 3
+2019-05-30 15:55:07 mapAddressBook.size() = 1
+2019-05-30 15:55:07 dnsseed thread start
+2019-05-30 15:55:07 Loading addresses from DNS seeds (could take a while)
+2019-05-30 15:55:07 0 addresses found from DNS seeds
+2019-05-30 15:55:07 dnsseed thread exit
+2019-05-30 15:55:07 dumpaddr thread start
+2019-05-30 15:55:07 msghand thread start
+2019-05-30 15:55:07 opencon thread start
+2019-05-30 15:55:07 addcon thread start
+2019-05-30 15:55:07 trying connection 54.202.151.47:2333 lastseen=405342.1hrs
+2019-05-30 15:55:07 net thread start
+2019-05-30 15:55:07 upnp thread start
+2019-05-30 15:55:07 init message: Yükleme tamamlandı
+2019-05-30 15:55:07 GetMyExternalIP() received [176.239.70.3] 176.239.70.3:0
+2019-05-30 15:55:07 GetMyExternalIP() returned 176.239.70.3
+2019-05-30 15:55:07 AddLocal(176.239.70.3:2333,4)
+2019-05-30 15:55:09 refreshWallet
+2019-05-30 15:55:11 No valid UPnP IGDs found
+2019-05-30 15:55:11 upnp thread exit
+2019-05-30 15:55:12 connection timeout
+2019-05-30 15:56:08 dumpaddr thread stop
+2019-05-30 15:56:08 opencon thread interrupt
+2019-05-30 15:56:08 net thread interrupt
+2019-05-30 15:56:08 addcon thread interrupt
+2019-05-30 15:56:08 msghand thread interrupt
+2019-05-30 15:56:08 Shutdown : In progress...
+2019-05-30 15:56:08 Flush(false)
+2019-05-30 15:56:08 wallet.dat refcount=0
+2019-05-30 15:56:08 wallet.dat checkpoint
+2019-05-30 15:56:08 wallet.dat detach
+2019-05-30 15:56:08 wallet.dat closed
+2019-05-30 15:56:08 DBFlush(false) ended              31ms
+2019-05-30 15:56:08 StopNode()
+2019-05-30 15:56:08 Flushed 1 addresses to peers.dat  2ms
+2019-05-30 15:56:08 Committing 64 changed transactions to coin database...
+2019-05-30 15:56:08 Flush(true)
+2019-05-30 15:56:08 wallet.dat refcount=0
+2019-05-30 15:56:08 wallet.dat checkpoint
+2019-05-30 15:56:08 wallet.dat detach
+2019-05-30 15:56:08 wallet.dat closed
+2019-05-30 15:56:08 DBFlush(true) ended               5ms
+2019-05-30 15:56:08 Shutdown : done

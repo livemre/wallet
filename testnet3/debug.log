@@ -1,0 +1,221 @@
+2019-05-29 15:39:12 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019-05-29 15:39:12 Sirius version v0.8.7.5-unk-beta (2015-01-12 16:55:18 -1000)
+2019-05-29 15:39:12 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2019-05-29 15:39:12 Default data directory /home/ubuntu/.sirius
+2019-05-29 15:39:12 Using data directory /home/ubuntu/.sirius/testnet3
+2019-05-29 15:39:12 Using at most 125 connections (1024 file descriptors available)
+2019-05-29 15:39:12 init message: Cüzdan kontrol ediliyor...
+2019-05-29 15:39:12 dbenv.open LogDir=/home/ubuntu/.sirius/testnet3/database ErrorFile=/home/ubuntu/.sirius/testnet3/db.log
+2019-05-29 15:39:12 Bound to [::]:12333
+2019-05-29 15:39:12 Bound to 0.0.0.0:12333
+2019-05-29 15:39:12 init message: Blok indeksi yükleniyor...
+2019-05-29 15:39:12 Opening LevelDB in /home/ubuntu/.sirius/testnet3/blocks/index
+2019-05-29 15:39:12 Opened LevelDB successfully
+2019-05-29 15:39:12 Opening LevelDB in /home/ubuntu/.sirius/testnet3/chainstate
+2019-05-29 15:39:12 Opened LevelDB successfully
+2019-05-29 15:39:12 LoadBlockIndexDB(): last block file = 0
+2019-05-29 15:39:12 LoadBlockIndexDB(): transaction index disabled
+2019-05-29 15:39:12 Initializing databases...
+2019-05-29 15:39:12 7a276b4b6f23e7d2eb39af137eb3066d90583d642d23a34d34a7ba43709319da
+2019-05-29 15:39:12 7a276b4b6f23e7d2eb39af137eb3066d90583d642d23a34d34a7ba43709319da
+2019-05-29 15:39:12 c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c
+2019-05-29 15:39:12 CBlock(hash=7a276b4b6f23e7d2eb39af137eb3066d90583d642d23a34d34a7ba43709319da, input=0100000000000000000000000000000000000000000000000000000000000000000000006cd58db2873a5819517f8c76193e940e9bb5128019723d86ff7a81ac751e71c481dced5cf0ff0f1ecd210317, PoW=000005d95ecdc3e21113aaaedfc63470f9b6d5a3af968528e593aa78e58ef72c, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c, nTime=1559092353, nBits=1e0ffff0, nNonce=386081229, vtx=1)
+2019-05-29 15:39:12   CTransaction(hash=c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536)
+    CTxOut(nValue=20.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+  vMerkleTree: c4711e75ac817aff863d72198012b59b0e943e19768c7f5119583a87b28dd56c 
+2019-05-29 15:39:12 Pre-allocating up to position 0x1000000 in blk00000.dat
+2019-05-29 15:39:12 SetBestChain: new best=7a276b4b6f23e7d2eb39af137eb3066d90583d642d23a34d34a7ba43709319da  height=0  log2_work=20.000022  tx=1  date=2019-05-29 01:12:33 progress=0.624282
+2019-05-29 15:39:12 init message: Bloklar kontrol ediliyor...
+2019-05-29 15:39:12  block index              85ms
+2019-05-29 15:39:12 init message: Cüzdan yükleniyor...
+2019-05-29 15:39:12 nFileVersion = 80705
+2019-05-29 15:39:12 Performing wallet upgrade to 60000
+2019-05-29 15:39:12 keypool added key 1, size=1
+2019-05-29 15:39:12 keypool added key 2, size=2
+2019-05-29 15:39:12 keypool added key 3, size=3
+2019-05-29 15:39:12 keypool added key 4, size=4
+2019-05-29 15:39:12 keypool added key 5, size=5
+2019-05-29 15:39:12 keypool added key 6, size=6
+2019-05-29 15:39:12 keypool added key 7, size=7
+2019-05-29 15:39:12 keypool added key 8, size=8
+2019-05-29 15:39:12 keypool added key 9, size=9
+2019-05-29 15:39:12 keypool added key 10, size=10
+2019-05-29 15:39:12 keypool added key 11, size=11
+2019-05-29 15:39:12 keypool added key 12, size=12
+2019-05-29 15:39:12 keypool added key 13, size=13
+2019-05-29 15:39:12 keypool added key 14, size=14
+2019-05-29 15:39:12 keypool added key 15, size=15
+2019-05-29 15:39:12 keypool added key 16, size=16
+2019-05-29 15:39:12 keypool added key 17, size=17
+2019-05-29 15:39:12 keypool added key 18, size=18
+2019-05-29 15:39:12 keypool added key 19, size=19
+2019-05-29 15:39:12 keypool added key 20, size=20
+2019-05-29 15:39:12 keypool added key 21, size=21
+2019-05-29 15:39:12 keypool added key 22, size=22
+2019-05-29 15:39:12 keypool added key 23, size=23
+2019-05-29 15:39:12 keypool added key 24, size=24
+2019-05-29 15:39:12 keypool added key 25, size=25
+2019-05-29 15:39:12 keypool added key 26, size=26
+2019-05-29 15:39:12 keypool added key 27, size=27
+2019-05-29 15:39:12 keypool added key 28, size=28
+2019-05-29 15:39:12 keypool added key 29, size=29
+2019-05-29 15:39:12 keypool added key 30, size=30
+2019-05-29 15:39:12 keypool added key 31, size=31
+2019-05-29 15:39:12 keypool added key 32, size=32
+2019-05-29 15:39:12 keypool added key 33, size=33
+2019-05-29 15:39:12 keypool added key 34, size=34
+2019-05-29 15:39:12 keypool added key 35, size=35
+2019-05-29 15:39:12 keypool added key 36, size=36
+2019-05-29 15:39:12 keypool added key 37, size=37
+2019-05-29 15:39:12 keypool added key 38, size=38
+2019-05-29 15:39:12 keypool added key 39, size=39
+2019-05-29 15:39:12 keypool added key 40, size=40
+2019-05-29 15:39:12 keypool added key 41, size=41
+2019-05-29 15:39:12 keypool added key 42, size=42
+2019-05-29 15:39:12 keypool added key 43, size=43
+2019-05-29 15:39:12 keypool added key 44, size=44
+2019-05-29 15:39:12 keypool added key 45, size=45
+2019-05-29 15:39:12 keypool added key 46, size=46
+2019-05-29 15:39:12 keypool added key 47, size=47
+2019-05-29 15:39:12 keypool added key 48, size=48
+2019-05-29 15:39:12 keypool added key 49, size=49
+2019-05-29 15:39:12 keypool added key 50, size=50
+2019-05-29 15:39:12 keypool added key 51, size=51
+2019-05-29 15:39:12 keypool added key 52, size=52
+2019-05-29 15:39:12 keypool added key 53, size=53
+2019-05-29 15:39:12 keypool added key 54, size=54
+2019-05-29 15:39:13 keypool added key 55, size=55
+2019-05-29 15:39:13 keypool added key 56, size=56
+2019-05-29 15:39:13 keypool added key 57, size=57
+2019-05-29 15:39:13 keypool added key 58, size=58
+2019-05-29 15:39:13 keypool added key 59, size=59
+2019-05-29 15:39:13 keypool added key 60, size=60
+2019-05-29 15:39:13 keypool added key 61, size=61
+2019-05-29 15:39:13 keypool added key 62, size=62
+2019-05-29 15:39:13 keypool added key 63, size=63
+2019-05-29 15:39:13 keypool added key 64, size=64
+2019-05-29 15:39:13 keypool added key 65, size=65
+2019-05-29 15:39:13 keypool added key 66, size=66
+2019-05-29 15:39:13 keypool added key 67, size=67
+2019-05-29 15:39:13 keypool added key 68, size=68
+2019-05-29 15:39:13 keypool added key 69, size=69
+2019-05-29 15:39:13 keypool added key 70, size=70
+2019-05-29 15:39:13 keypool added key 71, size=71
+2019-05-29 15:39:13 keypool added key 72, size=72
+2019-05-29 15:39:13 keypool added key 73, size=73
+2019-05-29 15:39:13 keypool added key 74, size=74
+2019-05-29 15:39:13 keypool added key 75, size=75
+2019-05-29 15:39:13 keypool added key 76, size=76
+2019-05-29 15:39:13 keypool added key 77, size=77
+2019-05-29 15:39:13 keypool added key 78, size=78
+2019-05-29 15:39:13 keypool added key 79, size=79
+2019-05-29 15:39:13 keypool added key 80, size=80
+2019-05-29 15:39:13 keypool added key 81, size=81
+2019-05-29 15:39:13 keypool added key 82, size=82
+2019-05-29 15:39:13 keypool added key 83, size=83
+2019-05-29 15:39:13 keypool added key 84, size=84
+2019-05-29 15:39:13 keypool added key 85, size=85
+2019-05-29 15:39:13 keypool added key 86, size=86
+2019-05-29 15:39:13 keypool added key 87, size=87
+2019-05-29 15:39:13 keypool added key 88, size=88
+2019-05-29 15:39:13 keypool added key 89, size=89
+2019-05-29 15:39:13 keypool added key 90, size=90
+2019-05-29 15:39:13 keypool added key 91, size=91
+2019-05-29 15:39:13 keypool added key 92, size=92
+2019-05-29 15:39:13 keypool added key 93, size=93
+2019-05-29 15:39:13 keypool added key 94, size=94
+2019-05-29 15:39:13 keypool added key 95, size=95
+2019-05-29 15:39:13 keypool added key 96, size=96
+2019-05-29 15:39:13 keypool added key 97, size=97
+2019-05-29 15:39:13 keypool added key 98, size=98
+2019-05-29 15:39:13 keypool added key 99, size=99
+2019-05-29 15:39:13 keypool added key 100, size=100
+2019-05-29 15:39:13 keypool added key 101, size=101
+2019-05-29 15:39:13 keypool reserve 1
+2019-05-29 15:39:13 keypool keep 1
+2019-05-29 15:39:13  wallet                 1041ms
+2019-05-29 15:39:13 init message: Adresler yükleniyor...
+2019-05-29 15:39:13 ERROR: CAddrman::Read() : open failed
+2019-05-29 15:39:13 Invalid or missing peers.dat; recreating
+2019-05-29 15:39:13 Loaded 0 addresses from peers.dat  0ms
+2019-05-29 15:39:13 mapBlockIndex.size() = 1
+2019-05-29 15:39:13 nBestHeight = 0
+2019-05-29 15:39:13 setKeyPool.size() = 100
+2019-05-29 15:39:13 mapWallet.size() = 0
+2019-05-29 15:39:13 mapAddressBook.size() = 1
+2019-05-29 15:39:13 opencon thread start
+2019-05-29 15:39:13 msghand thread start
+2019-05-29 15:39:13 dumpaddr thread start
+2019-05-29 15:39:13 addcon thread start
+2019-05-29 15:39:13 net thread start
+2019-05-29 15:39:13 upnp thread start
+2019-05-29 15:39:13 dnsseed thread start
+2019-05-29 15:39:13 Loading addresses from DNS seeds (could take a while)
+2019-05-29 15:39:13 0 addresses found from DNS seeds
+2019-05-29 15:39:13 dnsseed thread exit
+2019-05-29 15:39:13 init message: Yükleme tamamlandı
+2019-05-29 15:39:13 GetMyExternalIP() received [176.239.70.3] 176.239.70.3:0
+2019-05-29 15:39:13 GetMyExternalIP() returned 176.239.70.3
+2019-05-29 15:39:13 AddLocal(176.239.70.3:12333,4)
+2019-05-29 15:39:15 refreshWallet
+2019-05-29 15:39:17 No valid UPnP IGDs found
+2019-05-29 15:39:17 upnp thread exit
+2019-05-29 15:40:27 accepted connection 192.168.8.123:44228
+2019-05-29 15:40:27 send version message: version 70002, blocks=0, us=176.239.70.3:12333, them=0.0.0.0:0, peer=192.168.8.123:44228
+2019-05-29 15:40:27 Added time data, samples 2, offset +0 (+0 minutes)
+2019-05-29 15:40:27 receive version message: /Satoshi:0.8.7.5/: version 70002, blocks=0, us=0.0.0.0:0, them=176.239.70.3:12333, peer=192.168.8.123:44228
+2019-05-29 15:40:28 Added 1 addresses from 192.168.8.123: 0 tried, 1 new
+2019-05-29 15:40:28 getblocks -1 to 0000000000000000000000000000000000000000000000000000000000000000 limit 500
+2019-05-29 15:43:04 received block 6214739ea56454c624a56721bab7e9e4455759e1949a8a90ce199a5ab318eb66
+2019-05-29 15:43:04 Pre-allocating up to position 0x100000 in rev00000.dat
+2019-05-29 15:43:04 Committing 1 changed transactions to coin database...
+2019-05-29 15:43:04 SetBestChain: new best=6214739ea56454c624a56721bab7e9e4455759e1949a8a90ce199a5ab318eb66  height=1  log2_work=21.000012  tx=2  date=2019-05-29 15:43:03 progress=0.999994
+2019-05-29 15:43:04 ProcessBlock: ACCEPTED
+2019-05-29 15:43:08 received block 731e02397d6f681bc8cfb66744a8d54369bf513ca999bed41ad899dc9ab33dc4
+2019-05-29 15:43:08 Committing 1 changed transactions to coin database...
+2019-05-29 15:43:08 SetBestChain: new best=731e02397d6f681bc8cfb66744a8d54369bf513ca999bed41ad899dc9ab33dc4  height=2  log2_work=21.584978  tx=3  date=2019-05-29 15:43:08 progress=1.000000
+2019-05-29 15:43:08 ProcessBlock: ACCEPTED
+2019-05-29 15:48:18 socket closed
+2019-05-29 15:48:18 disconnecting node 192.168.8.123:44228
+2019-05-29 15:48:40 dumpaddr thread stop
+2019-05-29 15:48:40 msghand thread interrupt
+2019-05-29 15:48:40 addcon thread interrupt
+2019-05-29 15:48:40 opencon thread interrupt
+2019-05-29 15:48:40 net thread interrupt
+2019-05-29 15:48:40 Shutdown : In progress...
+2019-05-29 15:48:40 Flush(false)
+2019-05-29 15:48:40 wallet.dat refcount=0
+2019-05-29 15:48:40 wallet.dat checkpoint
+2019-05-29 15:48:40 wallet.dat detach
+2019-05-29 15:48:40 wallet.dat closed
+2019-05-29 15:48:40 DBFlush(false) ended              30ms
+2019-05-29 15:48:40 StopNode()
+2019-05-29 15:48:40 Flushed 1 addresses to peers.dat  4ms
+2019-05-29 15:48:40 Committing 0 changed transactions to coin database...
+2019-05-29 15:48:40 Flush(true)
+2019-05-29 15:48:40 wallet.dat refcount=0
+2019-05-29 15:48:40 wallet.dat checkpoint
+2019-05-29 15:48:40 wallet.dat detach
+2019-05-29 15:48:40 wallet.dat closed
+2019-05-29 15:48:40 DBFlush(true) ended               3ms
+2019-05-29 15:48:40 Shutdown : done
